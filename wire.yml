@@ -1,0 +1,29 @@
+site_name: Specialty Coffee Wien
+site_url: https://specialty-coffee-wien.at
+lang: de
+logo: false
+favicon: false
+
+nav:
+  - label: Home
+    path: /
+  - label: Kaffee
+    path: /kaffee/
+    children:
+      - label: Espresso
+        path: /kaffee/espresso/
+      - label: Filter-Kaffee
+        path: /kaffee/filter-kaffee/
+      - label: Cold Brew
+        path: /kaffee/cold-brew/
+  - label: Zubereitung
+    path: /zubereitung/
+    children:
+      - label: French Press
+        path: /zubereitung/french-press/
+      - label: Chemex
+        path: /zubereitung/chemex/
+      - label: AeroPress
+        path: /zubereitung/aeropress/
+  - label: Über uns
+    path: /ueber-uns/

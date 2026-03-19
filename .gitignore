@@ -1,0 +1,5 @@
+.env
+site/
+.wire/gsc.db
+__pycache__/
+*.pyc
