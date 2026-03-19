@@ -1,29 +1,47 @@
-site_name: Specialty Coffee Wien
-site_url: https://specialty-coffee-wien.at
+site_name: Specialty Coffee Hub
+site_url: https://specialty-coffee.shop
 lang: de
 logo: false
 favicon: false
 
 nav:
-  - label: Home
-    path: /
-  - label: Kaffee
-    path: /kaffee/
-    children:
-      - label: Espresso
-        path: /kaffee/espresso/
-      - label: Filter-Kaffee
-        path: /kaffee/filter-kaffee/
-      - label: Cold Brew
-        path: /kaffee/cold-brew/
-  - label: Zubereitung
-    path: /zubereitung/
-    children:
-      - label: French Press
-        path: /zubereitung/french-press/
-      - label: Chemex
-        path: /zubereitung/chemex/
-      - label: AeroPress
-        path: /zubereitung/aeropress/
-  - label: Über uns
-    path: /ueber-uns/
+  - index.md
+  - Röstereien:
+    - roestereien/index.md
+    - roestereien/kaffeekommune-mainz/index.md
+    - roestereien/maldaner-wiesbaden/index.md
+    - roestereien/onoma-flensburg/index.md
+    - roestereien/unbound-coffee-innsbruck/index.md
+    - roestereien/suedseite-heidelberg/index.md
+    - roestereien/epitome-erfurt/index.md
+    - roestereien/mak-coffee-augsburg/index.md
+  - Magazin:
+    - magazin/index.md
+    - magazin/was-ist-specialty-coffee/index.md
+
+header:
+  offerings: Röstereien
+
+footer:
+  copyright: "© 2026 Specialty Coffee Hub"
+  links:
+    Rechtliches:
+      - Impressum: /impressum/
+      - Datenschutz: /datenschutz/
+
+extra:
+  wire:
+    sidebar_cta:
+      title: "Rösterei eintragen"
+      description: "Du betreibst eine Specialty Rösterei? Werde Teil des Specialty Coffee Hub."
+      link: /roestereien/
+      link_text: "Mehr erfahren"
+    article_cta:
+      title: "Alle Röstereien entdecken"
+      description: "Von Flensburg bis Innsbruck – die besten Specialty Röstereien auf einen Blick."
+      link: /roestereien/
+      link_text: "Zur Übersicht"
+    labels:
+      on_this_page: "Auf dieser Seite"
+      related_articles: "Weitere Röstereien"
+      read_more: "Mehr lesen"

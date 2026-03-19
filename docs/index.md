@@ -1,9 +1,9 @@
 ---
-title: Specialty Coffee Wien – Kaffee neu entdecken
-description: Dein Guide für Specialty Coffee in Wien. Erfahre alles über Herkunft, Röstung und die perfekte Zubereitung außergewöhnlicher Kaffeesorten.
+title: Specialty Coffee Hub – Röstereien entdecken
+description: Der Specialty Coffee Hub stellt die besten Specialty Röstereien aus Deutschland und Österreich vor. Portraits, Hintergründe und alles über außergewöhnlichen Kaffee.
 layout: home
 ---
 
-# Specialty Coffee Wien
+# Specialty Coffee Hub
 
-Willkommen in der Welt des Specialty Coffee. Hier findest du alles, was du über außergewöhnlichen Kaffee wissen musst – von der Herkunft der Bohne bis zur perfekten Tasse.
+Hier findest du Specialty Röstereien, die für Qualität, Herkunft und Handwerk stehen – mit allem, was du über ihre Arbeit wissen musst.
