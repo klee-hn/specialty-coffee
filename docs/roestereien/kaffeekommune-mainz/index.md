@@ -2,6 +2,7 @@
 title: Kaffeekommune Mainz – Specialty Coffee aus Rheinhessen
 description: Die Kaffeekommune aus Mainz röstet Specialty Coffee mit Fokus auf Transparenz und direkte Handelsbeziehungen. Portrait, Sortiment und Link zur Rösterei.
 short_title: Kaffeekommune
+layout: article
 created: 2026-03-19
 ---
 

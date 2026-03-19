@@ -2,6 +2,7 @@
 title: Maldaner Wiesbaden – Kaffeekultur seit 1859
 description: Maldaner in Wiesbaden ist eine der ältesten Röstereien Deutschlands. Wie das Traditionshaus Specialty Coffee interpretiert und was es von modernen Röstereien unterscheidet.
 short_title: Maldaner
+layout: article
 created: 2026-03-19
 ---
 

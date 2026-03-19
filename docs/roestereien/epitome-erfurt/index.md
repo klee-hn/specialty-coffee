@@ -2,6 +2,7 @@
 title: Epitome Coffee Erfurt – Specialty Coffee in Thüringen
 description: Epitome Coffee aus Erfurt bringt Specialty Coffee nach Mitteldeutschland. Portrait der Rösterei, ihre Arbeitsweise und was sie in der Specialty-Szene auszeichnet.
 short_title: Epitome
+layout: article
 created: 2026-03-19
 ---
 

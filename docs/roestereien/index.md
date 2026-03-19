@@ -2,7 +2,7 @@
 title: Specialty Röstereien – Portraits und Empfehlungen
 description: Alle Specialty Röstereien im Specialty Coffee Hub. Portraits, Besonderheiten und direkte Links zu den Röstereien aus Deutschland und Österreich.
 short_title: Röstereien
-layout: page
+layout: landing
 ---
 
 # Specialty Röstereien

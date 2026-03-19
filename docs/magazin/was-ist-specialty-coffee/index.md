@@ -1,7 +1,8 @@
 ---
 title: Was ist Specialty Coffee? – Definition und Bedeutung
 description: Specialty Coffee ist mehr als ein Qualitätsmerkmal. Was der Begriff bedeutet, wie Kaffee bewertet wird und warum der Unterschied zu kommerziellem Kaffee so groß ist.
-short_title: Was ist Specialty Coffee?
+short_title: Specialty Coffee
+layout: article
 created: 2026-03-19
 ---
 

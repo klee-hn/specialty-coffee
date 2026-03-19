@@ -2,6 +2,7 @@
 title: Südseite Heidelberg – Specialty Coffee am Neckar
 description: Die Südseite in Heidelberg verbindet Specialty Coffee mit dem Lebensgefühl der Universitätsstadt. Portrait der Rösterei und was ihre Kaffees besonders macht.
 short_title: Südseite
+layout: article
 created: 2026-03-19
 ---
 

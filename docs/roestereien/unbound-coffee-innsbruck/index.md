@@ -2,6 +2,7 @@
 title: Unbound Coffee Innsbruck – Specialty Coffee in den Alpen
 description: Unbound Coffee aus Innsbruck steht für modernen Specialty Coffee in Österreich. Portrait der Tiroler Rösterei, ihre Röstphilosophie und das Sortiment.
 short_title: Unbound Coffee
+layout: article
 created: 2026-03-19
 ---
 

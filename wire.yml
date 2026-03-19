@@ -20,7 +20,8 @@ nav:
     - magazin/was-ist-specialty-coffee/index.md
 
 header:
-  offerings: Röstereien
+  offerings: Magazin
+  cta: false
 
 footer:
   copyright: "© 2026 Specialty Coffee Hub"

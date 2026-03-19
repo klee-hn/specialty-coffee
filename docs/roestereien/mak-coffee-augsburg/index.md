@@ -2,6 +2,7 @@
 title: MAK Coffee Augsburg – Specialty Rösterei in Schwaben
 description: MAK Coffee aus Augsburg röstet Specialty Coffee mit bayerischer Sorgfalt. Portrait der Rösterei, ihr Ansatz und was MAK Coffee in der deutschen Specialty-Szene besonders macht.
 short_title: MAK Coffee
+layout: article
 created: 2026-03-19
 ---
 
