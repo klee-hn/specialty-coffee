@@ -1,6 +1,6 @@
 ---
 title: Specialty Coffee Hub – Röstereien entdecken
-description: Der Specialty Coffee Hub stellt die besten Specialty Röstereien aus Deutschland und Österreich vor. Portraits, Hintergründe und alles über außergewöhnlichen Kaffee.
+description: Specialty Coffee Hub präsentiert Röstereien aus Deutschland und Österreich – mit Portraits, Hintergründen und allem über außergewöhnlichen Kaffee.
 layout: home
 ---
 

@@ -4,60 +4,38 @@
 [RULE-08] [WARNING] Thin content: 19 words. Pages with fewer than 200 words risk being ignored by search engines. — /impressum/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /impressum/
 [RULE-02] [WARNING] Multiple H1 tags found (2): 'Specialty Coffee Hub – Röstereien entdecken', 'Specialty Coffee Hub'. Keep exactly one H1, demote others to H2. — /
-[RULE-07] [WARNING] Meta description too long (164 chars, limit 158): "Der Specialty Coffee Hub stellt die besten Specialty Röstereien aus Deutschland ..." — /
 [RULE-08] [WARNING] Thin content: 34 words. Pages with fewer than 200 words risk being ignored by search engines. — /
 [RULE-45] [WARNING] No JSON-LD structured data found. Add a <script type="application/ld+json"> block. — /
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /
-[RULE-94] [WARNING] Meta description is 164 chars (max 160). Truncated text wastes the SERP snippet. — /
 [RULE-103] [WARNING] Root index page has no layout. Add layout: landing or layout: home to frontmatter. Without it, your homepage is treated as a plain content page. — /
 [RULE-08] [WARNING] Thin content: 27 words. Pages with fewer than 200 words risk being ignored by search engines. — /magazin/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /magazin/
-[RULE-07] [WARNING] Meta description too long (165 chars, limit 158): "Specialty Coffee ist mehr als ein Qualitätsmerkmal. Was der Begriff bedeutet, wi..." — /magazin/was-ist-specialty-coffee/
 [RULE-55] [WARNING] JSON-LD @type "Article" missing recommended field(s): author. Google uses these for rich results and E-E-A-T signals. — /magazin/was-ist-specialty-coffee/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /magazin/was-ist-specialty-coffee/
 [RULE-71] [WARNING] Article link minimum not met: needs 1 link to the topic index page (/magazin/); needs 1 external link for source credibility. Link on first mention of the concept (2-5 word anchor). Do NOT append links at the bottom. — /magazin/was-ist-specialty-coffee/
 [RULE-78] [WARNING] Dead-end page: zero outbound internal links. Add links to related pages so visitors can navigate deeper. — /magazin/was-ist-specialty-coffee/
-[RULE-94] [WARNING] Meta description is 165 chars (max 160). Truncated text wastes the SERP snippet. — /magazin/was-ist-specialty-coffee/
-[RULE-07] [WARNING] Meta description too long (162 chars, limit 158): "Epitome Coffee aus Erfurt bringt Specialty Coffee nach Mitteldeutschland. Portra..." — /roestereien/epitome-erfurt/
-[RULE-08] [WARNING] Thin content: 115 words. Pages with fewer than 200 words risk being ignored by search engines. — /roestereien/epitome-erfurt/
 [RULE-55] [WARNING] JSON-LD @type "Article" missing recommended field(s): author. Google uses these for rich results and E-E-A-T signals. — /roestereien/epitome-erfurt/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /roestereien/epitome-erfurt/
-[RULE-78] [WARNING] Dead-end page: zero outbound internal links. Add links to related pages so visitors can navigate deeper. — /roestereien/epitome-erfurt/
-[RULE-94] [WARNING] Meta description is 162 chars (max 160). Truncated text wastes the SERP snippet. — /roestereien/epitome-erfurt/
+[RULE-87] [WARNING] Outline-style content: 7 headings with avg 38 words between them. Add depth — expand thin sections or consolidate headings. — /roestereien/epitome-erfurt/
 [RULE-08] [WARNING] Thin content: 17 words. Pages with fewer than 200 words risk being ignored by search engines. — /roestereien/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /roestereien/
 [RULE-104] [WARNING] Landing page has no Wire components. Use :::cta, :::cards, :::split, :::stats, or other shortcodes to create a professional layout. Or change to layout: page if this is a content page. — /roestereien/
-[RULE-08] [WARNING] Thin content: 126 words. Pages with fewer than 200 words risk being ignored by search engines. — /roestereien/kaffeekommune-mainz/
 [RULE-55] [WARNING] JSON-LD @type "Article" missing recommended field(s): author. Google uses these for rich results and E-E-A-T signals. — /roestereien/kaffeekommune-mainz/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /roestereien/kaffeekommune-mainz/
-[RULE-71] [WARNING] Article link minimum not met: needs 1 link to the topic index page (/roestereien/). Has: 1 external link(s). Link on first mention of the concept (2-5 word anchor). Do NOT append links at the bottom. — /roestereien/kaffeekommune-mainz/
-[RULE-78] [WARNING] Dead-end page: zero outbound internal links. Add links to related pages so visitors can navigate deeper. — /roestereien/kaffeekommune-mainz/
-[RULE-07] [WARNING] Meta description too long (176 chars, limit 158): "MAK Coffee aus Augsburg röstet Specialty Coffee mit bayerischer Sorgfalt. Portra..." — /roestereien/mak-coffee-augsburg/
-[RULE-08] [WARNING] Thin content: 127 words. Pages with fewer than 200 words risk being ignored by search engines. — /roestereien/mak-coffee-augsburg/
+[RULE-87] [WARNING] Outline-style content: 7 headings with avg 40 words between them. Add depth — expand thin sections or consolidate headings. — /roestereien/kaffeekommune-mainz/
 [RULE-55] [WARNING] JSON-LD @type "Article" missing recommended field(s): author. Google uses these for rich results and E-E-A-T signals. — /roestereien/mak-coffee-augsburg/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /roestereien/mak-coffee-augsburg/
-[RULE-71] [WARNING] Article link minimum not met: needs 2 more internal link(s) to sibling pages in /roestereien/; needs 1 link to the topic index page (/roestereien/). Has: 1 external link(s). Link on first mention of the concept (2-5 word anchor). Do NOT append links at the bottom. — /roestereien/mak-coffee-augsburg/
-[RULE-78] [WARNING] Dead-end page: zero outbound internal links. Add links to related pages so visitors can navigate deeper. — /roestereien/mak-coffee-augsburg/
-[RULE-94] [WARNING] Meta description is 176 chars (max 160). Truncated text wastes the SERP snippet. — /roestereien/mak-coffee-augsburg/
-[RULE-07] [WARNING] Meta description too long (172 chars, limit 158): "Maldaner in Wiesbaden ist eine der ältesten Röstereien Deutschlands. Wie das Tra..." — /roestereien/maldaner-wiesbaden/
-[RULE-08] [WARNING] Thin content: 111 words. Pages with fewer than 200 words risk being ignored by search engines. — /roestereien/maldaner-wiesbaden/
+[RULE-87] [WARNING] Outline-style content: 7 headings with avg 39 words between them. Add depth — expand thin sections or consolidate headings. — /roestereien/mak-coffee-augsburg/
 [RULE-55] [WARNING] JSON-LD @type "Article" missing recommended field(s): author. Google uses these for rich results and E-E-A-T signals. — /roestereien/maldaner-wiesbaden/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /roestereien/maldaner-wiesbaden/
-[RULE-71] [WARNING] Article link minimum not met: needs 2 more internal link(s) to sibling pages in /roestereien/; needs 1 link to the topic index page (/roestereien/). Has: 1 external link(s). Link on first mention of the concept (2-5 word anchor). Do NOT append links at the bottom. — /roestereien/maldaner-wiesbaden/
-[RULE-78] [WARNING] Dead-end page: zero outbound internal links. Add links to related pages so visitors can navigate deeper. — /roestereien/maldaner-wiesbaden/
-[RULE-94] [WARNING] Meta description is 172 chars (max 160). Truncated text wastes the SERP snippet. — /roestereien/maldaner-wiesbaden/
-[RULE-08] [WARNING] Thin content: 124 words. Pages with fewer than 200 words risk being ignored by search engines. — /roestereien/onoma-flensburg/
+[RULE-87] [WARNING] Outline-style content: 7 headings with avg 34 words between them. Add depth — expand thin sections or consolidate headings. — /roestereien/maldaner-wiesbaden/
 [RULE-55] [WARNING] JSON-LD @type "Article" missing recommended field(s): author. Google uses these for rich results and E-E-A-T signals. — /roestereien/onoma-flensburg/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /roestereien/onoma-flensburg/
-[RULE-71] [WARNING] Article link minimum not met: needs 2 more internal link(s) to sibling pages in /roestereien/; needs 1 link to the topic index page (/roestereien/). Has: 1 external link(s). Link on first mention of the concept (2-5 word anchor). Do NOT append links at the bottom. — /roestereien/onoma-flensburg/
-[RULE-78] [WARNING] Dead-end page: zero outbound internal links. Add links to related pages so visitors can navigate deeper. — /roestereien/onoma-flensburg/
-[RULE-08] [WARNING] Thin content: 114 words. Pages with fewer than 200 words risk being ignored by search engines. — /roestereien/suedseite-heidelberg/
+[RULE-87] [WARNING] Outline-style content: 7 headings with avg 38 words between them. Add depth — expand thin sections or consolidate headings. — /roestereien/onoma-flensburg/
 [RULE-55] [WARNING] JSON-LD @type "Article" missing recommended field(s): author. Google uses these for rich results and E-E-A-T signals. — /roestereien/suedseite-heidelberg/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /roestereien/suedseite-heidelberg/
-[RULE-71] [WARNING] Article link minimum not met: needs 2 more internal link(s) to sibling pages in /roestereien/; needs 1 link to the topic index page (/roestereien/). Has: 1 external link(s). Link on first mention of the concept (2-5 word anchor). Do NOT append links at the bottom. — /roestereien/suedseite-heidelberg/
-[RULE-78] [WARNING] Dead-end page: zero outbound internal links. Add links to related pages so visitors can navigate deeper. — /roestereien/suedseite-heidelberg/
-[RULE-08] [WARNING] Thin content: 125 words. Pages with fewer than 200 words risk being ignored by search engines. — /roestereien/unbound-coffee-innsbruck/
+[RULE-87] [WARNING] Outline-style content: 7 headings with avg 37 words between them. Add depth — expand thin sections or consolidate headings. — /roestereien/suedseite-heidelberg/
 [RULE-55] [WARNING] JSON-LD @type "Article" missing recommended field(s): author. Google uses these for rich results and E-E-A-T signals. — /roestereien/unbound-coffee-innsbruck/
 [RULE-65] [WARNING] Missing og:image — social shares will show a blank preview. Add image: to frontmatter, or set theme.og_image in wire.yml as a site-wide fallback. — /roestereien/unbound-coffee-innsbruck/
-[RULE-71] [WARNING] Article link minimum not met: needs 2 more internal link(s) to sibling pages in /roestereien/; needs 1 link to the topic index page (/roestereien/). Has: 1 external link(s). Link on first mention of the concept (2-5 word anchor). Do NOT append links at the bottom. — /roestereien/unbound-coffee-innsbruck/
-[RULE-78] [WARNING] Dead-end page: zero outbound internal links. Add links to related pages so visitors can navigate deeper. — /roestereien/unbound-coffee-innsbruck/
+[RULE-86] [WARNING] Description starts with title text. Add unique information to the SERP snippet — the title already shows in search results. — /roestereien/unbound-coffee-innsbruck/
+[RULE-87] [WARNING] Outline-style content: 7 headings with avg 38 words between them. Add depth — expand thin sections or consolidate headings. — /roestereien/unbound-coffee-innsbruck/
