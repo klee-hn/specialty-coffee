@@ -4,6 +4,15 @@ lang: de
 logo: false
 favicon: false
 
+theme:
+  primary_color: "#5c3320"
+  accent_color: "#c8963c"
+  font_family: "'Inter', system-ui, sans-serif"
+
+extra_css:
+  - "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap"
+  - assets/custom.css
+
 nav:
   - index.md
   - Röstereien:

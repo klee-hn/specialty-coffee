@@ -1,0 +1,227 @@
+/* ============================================================
+   Specialty Coffee Hub – Custom Theme
+   Warm espresso browns, cream backgrounds, serif headings
+   ============================================================ */
+
+/* ---- Google Fonts are loaded via extra_css in wire.yml ---- */
+
+/* ---- Root overrides ---- */
+:root {
+  --bg: #fdf8f3;
+  --bg-subtle: #f5ede3;
+  --bg-code: #f0e6d8;
+  --border: #d4b896;
+  --border-subtle: #e8d5be;
+}
+
+/* ---- Headings: Lora serif ---- */
+h1, h2, h3, h4, h5, h6,
+.site-logo,
+.content-nav-brand,
+.footer-logo,
+.page-header h1 {
+  font-family: 'Lora', Georgia, serif;
+}
+
+/* ---- Hero section ---- */
+.hero {
+  background: linear-gradient(135deg, #3d1f0e 0%, #6b3a2a 60%, #8c5035 100%);
+  color: #fdf8f3;
+  padding: 80px 32px 72px;
+  border-radius: 12px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #fdf8f3;
+  font-size: clamp(2rem, 1.4rem + 3vw, 3.2rem);
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+.hero .lead {
+  color: #e8d5be;
+  font-size: 1.2em;
+  max-width: 640px;
+  margin: 0 auto 32px;
+  line-height: 1.7;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: #c8963c !important;
+  color: #1c0f06 !important;
+  border: 2px solid #c8963c !important;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn-primary:hover {
+  background: #e0a840 !important;
+  border-color: #e0a840 !important;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: transparent !important;
+  color: #fdf8f3 !important;
+  border: 2px solid rgba(253,248,243,0.5) !important;
+  font-weight: 500;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.btn-secondary:hover {
+  border-color: #fdf8f3 !important;
+  background: rgba(253,248,243,0.1) !important;
+}
+
+/* ---- Feature cards (homepage + landing) ---- */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 32px 0;
+}
+
+.feature-card {
+  background: #fff;
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  padding: 24px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+  display: block;
+}
+
+.feature-card:hover {
+  box-shadow: 0 6px 24px rgba(61, 31, 14, 0.12);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  color: inherit;
+  text-decoration: none;
+}
+
+.feature-card h3 {
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-family: 'Lora', Georgia, serif;
+}
+
+.feature-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+
+/* ---- Stats bar ---- */
+.stats-bar {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  padding: 28px 24px;
+  margin: 32px 0;
+}
+
+.stat-value {
+  color: var(--primary);
+  font-family: 'Lora', Georgia, serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.stat-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* ---- Header & nav ---- */
+.site-header {
+  border-bottom: 1px solid var(--border-subtle);
+  background: rgba(253, 248, 243, 0.95);
+  backdrop-filter: blur(8px);
+}
+
+.offerings-bar {
+  background: var(--primary);
+}
+
+.offerings-bar a,
+.offerings-bar .site-logo {
+  color: #e8d5be;
+}
+
+.offerings-bar a:hover {
+  color: #fdf8f3;
+}
+
+/* ---- Footer ---- */
+.site-footer {
+  background: #2c1a0e;
+  color: #c4a882;
+}
+
+.site-footer a {
+  color: #c4a882;
+}
+
+.site-footer a:hover {
+  color: #fdf8f3;
+}
+
+/* ---- Sidebar CTA ---- */
+.sidebar-cta {
+  background: linear-gradient(135deg, #5c3320, #8c5035);
+  border-radius: 10px;
+  color: #fdf8f3;
+}
+
+.sidebar-cta h3 {
+  color: #fdf8f3;
+  font-family: 'Lora', Georgia, serif;
+}
+
+.sidebar-cta p {
+  color: #e8d5be;
+}
+
+/* ---- Article CTA ---- */
+.article-cta {
+  background: linear-gradient(135deg, #3d1f0e, #6b3a2a);
+  border-radius: 10px;
+  color: #fdf8f3;
+}
+
+/* ---- Page header ---- */
+.page-header {
+  border-bottom: 2px solid var(--border-subtle);
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+}
+
+/* ---- Links in articles ---- */
+article a {
+  color: var(--primary);
+  text-decoration-color: var(--border);
+}
+
+article a:hover {
+  color: var(--accent);
+}
