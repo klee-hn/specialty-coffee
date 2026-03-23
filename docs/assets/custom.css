@@ -1,9 +1,7 @@
 /* ============================================================
    Specialty Coffee Hub – Custom Theme
-   Warm espresso browns, cream backgrounds, serif headings
+   Espresso-Braun, Karamel-Akzent, Lora Serif Headlines
    ============================================================ */
-
-/* ---- Google Fonts are loaded via extra_css in wire.yml ---- */
 
 /* ---- Root overrides ---- */
 :root {
@@ -14,85 +12,93 @@
   --border-subtle: #e8d5be;
 }
 
-/* ---- Headings: Lora serif ---- */
-h1, h2, h3, h4, h5, h6,
+/* ---- Headings: Lora Serif ---- */
+h1, h2, h3, h4,
 .site-logo,
 .content-nav-brand,
-.footer-logo,
-.page-header h1 {
+.footer-logo {
   font-family: 'Lora', Georgia, serif;
 }
 
-/* ---- Hero section ---- */
-.hero {
-  background: linear-gradient(135deg, #3d1f0e 0%, #6b3a2a 60%, #8c5035 100%);
-  color: #fdf8f3;
-  padding: 80px 32px 72px;
-  border-radius: 12px;
-  margin-bottom: 48px;
+/* ================================================================
+   LANDING PAGE HERO SECTION
+   ================================================================ */
+.section-hero {
+  background: linear-gradient(150deg, #2c1608 0%, #5c3320 55%, #8c5035 100%) !important;
+  color: #fdf8f3 !important;
+  padding: 96px 24px 80px !important;
   text-align: center;
 }
 
-.hero h1 {
-  color: #fdf8f3;
-  font-size: clamp(2rem, 1.4rem + 3vw, 3.2rem);
+.section-hero h1,
+.section-hero h2 {
+  color: #fdf8f3 !important;
+  font-size: clamp(2rem, 1.4rem + 3vw, 3rem);
   letter-spacing: -0.5px;
   margin-bottom: 20px;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
-.hero .lead {
-  color: #e8d5be;
-  font-size: 1.2em;
-  max-width: 640px;
-  margin: 0 auto 32px;
+.section-hero p {
+  color: #e8d5be !important;
+  font-size: 1.15em;
+  max-width: 620px;
+  margin: 0 auto 28px;
   line-height: 1.7;
 }
 
-.hero-actions {
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  flex-wrap: wrap;
+.section-hero .stats-bar {
+  background: rgba(255,255,255,0.08) !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  border-radius: 12px;
+  margin: 36px auto 0;
+  max-width: 640px;
 }
 
+.section-hero .stat-value {
+  color: #c8963c !important;
+  font-size: 1.8rem;
+}
+
+.section-hero .stat-label {
+  color: #e8d5be !important;
+}
+
+/* CTA buttons */
 .btn-primary {
   background: #c8963c !important;
   color: #1c0f06 !important;
   border: 2px solid #c8963c !important;
   font-weight: 600;
-  padding: 12px 28px;
   border-radius: 6px;
-  text-decoration: none;
-  transition: background 0.2s, transform 0.1s;
+  transition: background 0.2s, transform 0.15s;
 }
 
 .btn-primary:hover {
   background: #e0a840 !important;
   border-color: #e0a840 !important;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }
 
 .btn-secondary {
   background: transparent !important;
   color: #fdf8f3 !important;
-  border: 2px solid rgba(253,248,243,0.5) !important;
+  border: 2px solid rgba(253,248,243,0.45) !important;
   font-weight: 500;
-  padding: 12px 28px;
   border-radius: 6px;
-  text-decoration: none;
-  transition: border-color 0.2s, background 0.2s;
+  transition: border-color 0.2s;
 }
 
 .btn-secondary:hover {
   border-color: #fdf8f3 !important;
-  background: rgba(253,248,243,0.1) !important;
+  background: rgba(253,248,243,0.08) !important;
 }
 
-/* ---- Feature cards (homepage + landing) ---- */
+/* ================================================================
+   FEATURE CARDS – WITH IMAGE SUPPORT
+   ================================================================ */
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 20px;
   margin: 32px 0;
 }
@@ -100,63 +106,124 @@ h1, h2, h3, h4, h5, h6,
 .feature-card {
   background: #fff;
   border: 1px solid var(--border-subtle);
-  border-radius: 10px;
-  padding: 24px;
+  border-radius: 12px;
+  padding: 0;
   text-decoration: none;
   color: inherit;
-  transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+  transition: box-shadow 0.2s, transform 0.15s;
   display: block;
+  overflow: hidden;
 }
 
 .feature-card:hover {
-  box-shadow: 0 6px 24px rgba(61, 31, 14, 0.12);
-  border-color: var(--primary);
-  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(61, 31, 14, 0.14);
+  transform: translateY(-3px);
   color: inherit;
   text-decoration: none;
 }
 
+/* Card color bar via ::before – unique gradient per roastery */
+.feature-card::before {
+  content: '';
+  display: block;
+  height: 6px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+}
+
+a.feature-card[href*="kaffeekommune-mainz"]::before {
+  background: linear-gradient(90deg, #6b3a2a, #c8963c);
+}
+a.feature-card[href*="maldaner-wiesbaden"]::before {
+  background: linear-gradient(90deg, #3d2010, #8c5035);
+}
+a.feature-card[href*="onoma-flensburg"]::before {
+  background: linear-gradient(90deg, #1a3d5a, #4a8cb5);
+}
+a.feature-card[href*="unbound-coffee-innsbruck"]::before {
+  background: linear-gradient(90deg, #1a4a35, #4ab580);
+}
+a.feature-card[href*="suedseite-heidelberg"]::before {
+  background: linear-gradient(90deg, #8c5035, #e0a840);
+}
+a.feature-card[href*="epitome-erfurt"]::before {
+  background: linear-gradient(90deg, #3d1a5a, #9a5ab5);
+}
+a.feature-card[href*="mak-coffee-augsburg"]::before {
+  background: linear-gradient(90deg, #5a4a1a, #c8b040);
+}
+
+/* Card content area */
 .feature-card h3 {
   color: var(--primary);
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1.1rem;
+  margin: 20px 20px 8px;
+  font-size: 1.05rem;
   font-family: 'Lora', Georgia, serif;
 }
 
 .feature-card p {
   color: var(--text-muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   line-height: 1.6;
-  margin: 0 0 12px;
+  margin: 0 20px 6px;
 }
 
-/* ---- Stats bar ---- */
+.feature-card .card-link {
+  display: block;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 8px 20px 18px;
+}
+
+/* ================================================================
+   STATS BAR
+   ================================================================ */
 .stats-bar {
+  display: flex;
+  gap: 0;
   background: var(--bg-subtle);
   border: 1px solid var(--border-subtle);
-  border-radius: 10px;
-  padding: 28px 24px;
+  border-radius: 12px;
+  padding: 0;
   margin: 32px 0;
+  overflow: hidden;
+}
+
+.stat {
+  flex: 1;
+  padding: 20px 16px;
+  text-align: center;
+  border-right: 1px solid var(--border-subtle);
+}
+
+.stat:last-child {
+  border-right: none;
 }
 
 .stat-value {
+  display: block;
   color: var(--primary);
   font-family: 'Lora', Georgia, serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 600;
+  line-height: 1.2;
 }
 
 .stat-label {
+  display: block;
   color: var(--text-muted);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  margin-top: 4px;
 }
 
-/* ---- Header & nav ---- */
+/* ================================================================
+   HEADER & NAV
+   ================================================================ */
 .site-header {
   border-bottom: 1px solid var(--border-subtle);
-  background: rgba(253, 248, 243, 0.95);
+  background: rgba(253, 248, 243, 0.96);
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .offerings-bar {
@@ -172,7 +239,9 @@ h1, h2, h3, h4, h5, h6,
   color: #fdf8f3;
 }
 
-/* ---- Footer ---- */
+/* ================================================================
+   FOOTER
+   ================================================================ */
 .site-footer {
   background: #2c1a0e;
   color: #c4a882;
@@ -186,14 +255,17 @@ h1, h2, h3, h4, h5, h6,
   color: #fdf8f3;
 }
 
-/* ---- Sidebar CTA ---- */
+/* ================================================================
+   ARTICLE / SIDEBAR CTA
+   ================================================================ */
 .sidebar-cta {
   background: linear-gradient(135deg, #5c3320, #8c5035);
   border-radius: 10px;
   color: #fdf8f3;
 }
 
-.sidebar-cta h3 {
+.sidebar-cta h3,
+.sidebar-cta strong {
   color: #fdf8f3;
   font-family: 'Lora', Georgia, serif;
 }
@@ -202,26 +274,96 @@ h1, h2, h3, h4, h5, h6,
   color: #e8d5be;
 }
 
-/* ---- Article CTA ---- */
-.article-cta {
-  background: linear-gradient(135deg, #3d1f0e, #6b3a2a);
-  border-radius: 10px;
-  color: #fdf8f3;
+/* ================================================================
+   LINKS IN ARTICLES
+   ================================================================ */
+article a {
+  color: var(--primary);
 }
 
-/* ---- Page header ---- */
+article a:hover {
+  color: var(--accent);
+}
+
+/* ================================================================
+   PAGE HEADER
+   ================================================================ */
 .page-header {
   border-bottom: 2px solid var(--border-subtle);
   padding-bottom: 20px;
   margin-bottom: 32px;
 }
 
-/* ---- Links in articles ---- */
-article a {
-  color: var(--primary);
-  text-decoration-color: var(--border);
+/* ================================================================
+   MOBILE RESPONSIVE
+   ================================================================ */
+@media (max-width: 768px) {
+  /* Stats bar: 2x2 grid on mobile */
+  .stats-bar {
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    flex: 1 1 50%;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .stat:nth-child(2n) {
+    border-right: none;
+  }
+
+  .stat:nth-last-child(-n+2) {
+    border-bottom: none;
+  }
+
+  /* Cards: single column on small screens */
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Hero: reduce padding */
+  .section-hero {
+    padding: 56px 20px 48px !important;
+  }
+
+  .section-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  /* CTA buttons: stack vertically */
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  /* Landing sections: reduce padding */
+  .section {
+    padding: 48px 20px !important;
+  }
 }
 
-article a:hover {
-  color: var(--accent);
+@media (max-width: 480px) {
+  /* Stats: stacked on very small screens */
+  .stat {
+    flex: 1 1 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .stat:last-child {
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Tablet: 2 columns */
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
