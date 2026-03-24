@@ -25,7 +25,7 @@ Klee nähert sich Kaffee so, wie die meisten Menschen es tun: neugierig, ohne Vo
 ---
 
 **Was er verfolgt**
-Neue Röstereien, internationale Trends, aufstrebende Anbaugebiete. Klee ist oft früher dran als die Szene selbst erwartet – weil er einfach viel sucht, liest und fragt. Was Paul Bonna mit Fachtiefe analysiert, entdeckt Klee oft zuerst.
+Neue Röstereien, internationale Trends, aufstrebende Anbaugebiete. Klee ist oft früher dran als die Szene selbst erwartet – weil er einfach viel sucht, liest und fragt.
 :::
 
 Alle Artikel erscheinen im [Specialty Coffee Hub Magazin](/magazin/).
