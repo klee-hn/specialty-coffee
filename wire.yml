@@ -35,9 +35,6 @@ nav:
   - Magazin:
     - magazin/index.md
     - magazin/was-ist-specialty-coffee/index.md
-  - Autoren:
-    - authors/christopher-klee/index.md
-    - authors/paul-bonna/index.md
 
 header:
   offerings: Magazin
