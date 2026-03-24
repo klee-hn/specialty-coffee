@@ -2,6 +2,7 @@
 title: Indonesien – Giling Basah und das erdige Sumatra-Profil
 description: Indonesien steht für erdig-vollmundigen Kaffee aus Sumatra, Java und Sulawesi. Giling Basah – die einzigartige Nassaufbereitung – gibt diesen Kaffees ihr Profil.
 short_title: Indonesien
+author: christopher-klee
 layout: article
 created: 2026-03-24
 ---

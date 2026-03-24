@@ -2,6 +2,7 @@
 title: Südseite Heidelberg – Specialty Coffee und Sauerteig
 description: Südseite in Heidelberg verbindet Specialty Coffee, Sauerteigbäckerei und Rösterei unter einem Dach. Frisch gerösteter Kaffee und Handwerk direkt erleben.
 short_title: Südseite
+author: christopher-klee
 layout: article
 created: 2026-03-19
 ---

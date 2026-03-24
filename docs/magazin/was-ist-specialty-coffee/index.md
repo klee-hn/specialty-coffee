@@ -2,6 +2,7 @@
 title: Was ist Specialty Coffee? – Definition und Bedeutung
 description: Was Specialty Coffee bedeutet, wie Kaffee nach SCA-Standard bewertet wird und warum der Unterschied zu kommerziellem Kaffee so groß ist.
 short_title: Specialty Coffee
+author: christopher-klee
 layout: article
 created: 2026-03-19
 ---

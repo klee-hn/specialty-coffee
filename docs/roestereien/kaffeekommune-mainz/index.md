@@ -2,6 +2,7 @@
 title: Kaffeekommune Mainz – Erste Specialty-Rösterei der Stadt
 description: Kaffeekommune in Mainz röstete seit 2010 Specialty Coffee mit Leidenschaft. Direktimport, Omni-Roasts und ein Café mit historischem Gewölbe.
 short_title: Kaffeekommune
+author: christopher-klee
 layout: article
 created: 2026-03-19
 ---

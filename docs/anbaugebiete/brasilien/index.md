@@ -2,6 +2,7 @@
 title: Brasilien – Größter Kaffeeproduzent und Specialty-Pionier
 description: Brasilien produziert rund 40 % des Weltkaffees. Nussig, schokoladig, wenig Säure – und im Specialty-Bereich längst mehr als nur Blend-Grundlage.
 short_title: Brasilien
+author: christopher-klee
 layout: article
 created: 2026-03-24
 ---

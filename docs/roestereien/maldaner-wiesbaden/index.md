@@ -2,6 +2,7 @@
 title: Maldaner Coffee Roasters Wiesbaden – Kaffee seit 1859
 description: Maldaner Coffee Roasters in Wiesbaden verbindet 165 Jahre Kaffeegeschichte mit modernem Specialty Coffee. Nachhaltig, transparent, ausgezeichnet.
 short_title: Maldaner
+author: christopher-klee
 layout: article
 created: 2026-03-19
 ---

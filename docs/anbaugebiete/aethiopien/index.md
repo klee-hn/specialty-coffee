@@ -2,6 +2,7 @@
 title: Äthiopien – Heimat des Kaffees und Ursprung aller Aromen
 description: Äthiopien ist der Geburtsort des Kaffees. Yirgacheffe, Sidama und Harrar stehen für blumige, fruchtige Specialty Coffees mit einzigartiger Komplexität.
 short_title: Äthiopien
+author: christopher-klee
 layout: article
 created: 2026-03-24
 ---

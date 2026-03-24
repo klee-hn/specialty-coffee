@@ -2,7 +2,7 @@ site_name: Specialty Coffee Hub
 site_url: https://specialty-coffee.shop
 lang: de
 logo: false
-favicon: false
+favicon: assets/favicon.svg
 
 theme:
   primary_color: "#5c3320"
@@ -35,6 +35,9 @@ nav:
   - Magazin:
     - magazin/index.md
     - magazin/was-ist-specialty-coffee/index.md
+  - Autoren:
+    - authors/christopher-klee/index.md
+    - authors/paul-bonna/index.md
 
 header:
   offerings: Magazin

@@ -2,6 +2,7 @@
 title: Kolumbien – Ganzjährige Ernte und ausgewogener Specialty Coffee
 description: Kolumbien erntet Kaffee das ganze Jahr. Karamellig, rote Früchte, ausgewogen – Huila und Nariño zählen zu den besten Specialty-Ursprüngen Südamerikas.
 short_title: Kolumbien
+author: christopher-klee
 layout: article
 created: 2026-03-24
 ---

@@ -2,6 +2,7 @@
 title: Unbound Coffee Roasters Innsbruck – Vom Berg zur Tasse
 description: Unbound Coffee Roasters Innsbruck röstete seit 2017 mit direkten Farmpartnerschaften und Trace-Back-Siegel. Schaurösterei in Wattens, Café in Innsbruck.
 short_title: Unbound Coffee
+author: christopher-klee
 layout: article
 created: 2026-03-19
 ---

@@ -2,6 +2,7 @@
 title: Epitome Coffee Co Erfurt – Handwerk am Fischmarkt
 description: Epitome Coffee Co in Erfurt röstet kleine Mengen der weltbesten Arabicas – klimaneutral, biologisch verpackt. Specialty Coffee am historischen Fischmarkt.
 short_title: Epitome Coffee
+author: christopher-klee
 layout: article
 created: 2026-03-19
 ---

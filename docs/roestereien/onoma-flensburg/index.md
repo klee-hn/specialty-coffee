@@ -2,6 +2,7 @@
 title: Onoma Kaffee Flensburg – Spezialitätenkaffee mit Haltung
 description: Onoma Kaffee in Flensburg röstet seit 2021 Specialty Coffee mit Haltung. Direktimport, kleine Lots und saisonale Kaffees an der dänischen Grenze.
 short_title: Onoma Kaffee
+author: christopher-klee
 layout: article
 created: 2026-03-19
 ---

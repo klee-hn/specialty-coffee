@@ -2,6 +2,7 @@
 title: Guatemala – Vulkanböden und acht Kaffee-Regionen
 description: Guatemala hat 8 Kaffee-Regionen auf Vulkanböden. Antigua und Huehuetenango stehen für vollmundige, schokoladige Specialty Coffees mit eigenem Charakter.
 short_title: Guatemala
+author: christopher-klee
 layout: article
 created: 2026-03-24
 ---

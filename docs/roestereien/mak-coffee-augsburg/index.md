@@ -2,6 +2,7 @@
 title: MAK Afrika Augsburg – Kaffee vom Mount Meru in Tansania
 description: MAK Afrika in Augsburg röstet ausschließlich Kaffee vom Mount Meru in Tansania. Gründer Allan Mutagwaba arbeitet direkt mit 28 Farmfamilien zusammen.
 short_title: MAK Afrika
+author: christopher-klee
 layout: article
 created: 2026-03-19
 ---

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Bean body -->
+  <ellipse cx="16" cy="16" rx="13" ry="8" fill="#5c3320" transform="rotate(-30 16 16)"/>
+  <!-- Upper half highlight for depth -->
+  <ellipse cx="14.5" cy="13.5" rx="8.5" ry="4.5" fill="#7d4a2a" transform="rotate(-30 14.5 13.5)" opacity="0.55"/>
+  <!-- Center crease -->
+  <path d="M6 20.5 Q16 15.5 26 11.5" fill="none" stroke="#2e1208" stroke-width="2" stroke-linecap="round"/>
+</svg>

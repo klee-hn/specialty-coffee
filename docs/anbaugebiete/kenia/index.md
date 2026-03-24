@@ -2,6 +2,7 @@
 title: Kenia – Schwarze Johannisbeere und intensivste Kaffeesäure
 description: Kenia steht für intensive Säure und schwarze Johannisbeere. SL28 und SL34 aus Nyeri und Kirinyaga gelten als Maßstab für afrikanischen Specialty Coffee.
 short_title: Kenia
+author: christopher-klee
 layout: article
 created: 2026-03-24
 ---
