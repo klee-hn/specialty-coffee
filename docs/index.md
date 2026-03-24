@@ -13,10 +13,9 @@ Von Flensburg bis Innsbruck: Micro-Röstereien, die Single-Origin-Lots direkt vo
 :::
 
 :::stats
-ab 80 | SCA-Punkte für Specialty Grade
-nur 3 % | der globalen Kaffeeproduktion
-ab 1.200 m | Typische Anbauhöhe
-0 | Erlaubte Primärfehler pro Probe
+Transparenz | Woher kommt der Kaffee?
+Handwerk | Wie wird er geröstet?
+Geschmack | Was steckt in der Tasse?
 :::
 
 ---
