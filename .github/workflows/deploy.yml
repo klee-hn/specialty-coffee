@@ -27,7 +27,9 @@ jobs:
           python-version: "3.12"
 
       - name: Install Wire
-        run: pip install https://wire.wise-relations.com/wire-latest.whl
+        run: |
+          curl -L https://wire.wise-relations.com/wire-latest.whl -o wire-3.0.0-py3-none-any.whl
+          pip install wire-3.0.0-py3-none-any.whl
 
       - name: Build site
         run: python -m wire.build --site .
