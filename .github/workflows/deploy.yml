@@ -27,7 +27,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install Wire
-        run: pip install vendor/wire-3.0.0-py3-none-any.whl
+        run: pip install https://wire.wise-relations.com/dist/wire-0.0.0-py3-none-any.whl
 
       - name: Build site
         run: python -m wire.build --site .

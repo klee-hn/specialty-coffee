@@ -3,3 +3,5 @@ site/
 .wire/gsc.db
 __pycache__/
 *.pyc
+.wire/
+wire.log
