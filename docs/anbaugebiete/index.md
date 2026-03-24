@@ -21,32 +21,32 @@ Specialty Coffee beginnt nicht in der Rösterei – er beginnt auf der Farm. Wo 
 ## Alle Anbaugebiete
 
 :::cards
-### [Äthiopien](/anbaugebiete/aethiopien/)
+### Äthiopien
 Die Heimat des Kaffees. Blumig, fruchtig, komplex – Yirgacheffe und Sidama zählen zu den faszinierendsten Ursprüngen der Welt.
 
 [Zur Region](/anbaugebiete/aethiopien/)
 
-### [Brasilien](/anbaugebiete/brasilien/)
+### Brasilien
 Größter Kaffeeproduzent der Welt. Nussig, schokoladig, weich – die Grundlage vieler Espresso-Blends und zunehmend im Specialty-Bereich präsent.
 
 [Zur Region](/anbaugebiete/brasilien/)
 
-### [Kolumbien](/anbaugebiete/kolumbien/)
+### Kolumbien
 Ganzjährige Ernte, zwei Saisons pro Jahr. Ausgewogen, karamellig, rote Früchte – einer der bekanntesten Kaffee-Ursprünge überhaupt.
 
 [Zur Region](/anbaugebiete/kolumbien/)
 
-### [Guatemala](/anbaugebiete/guatemala/)
+### Guatemala
 Vulkanböden, acht Anbauregionen, reiche Aromen. Antigua und Huehuetenango produzieren einige der charaktervollsten Kaffees Mittelamerikas.
 
 [Zur Region](/anbaugebiete/guatemala/)
 
-### [Kenia](/anbaugebiete/kenia/)
+### Kenia
 Intensive Säure, Schwarze Johannisbeere, Tomaten. Die SL28- und SL34-Bohnen aus Nyeri und Kirinyaga gelten als Referenz für afrikanischen Specialty Coffee.
 
 [Zur Region](/anbaugebiete/kenia/)
 
-### [Indonesien](/anbaugebiete/indonesien/)
+### Indonesien
 Sumatra, Java, Sulawesi. Erdig, vollmundig, einzigartige Nassaufbereitung (Giling Basah) – ein Profil, das in der Kaffeewelt einmalig ist.
 
 [Zur Region](/anbaugebiete/indonesien/)
