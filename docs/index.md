@@ -13,10 +13,10 @@ Von Flensburg bis Innsbruck: Micro-Röstereien, die Single-Origin-Lots direkt vo
 :::
 
 :::stats
-7 | Röstereien
-5 | Standorte
-1859 | Älteste Rösterei
-3 | Länder
+ab 80 | SCA-Punkte für Specialty Grade
+nur 3 % | der globalen Kaffeeproduktion
+ab 1.200 m | Typische Anbauhöhe
+0 | Erlaubte Primärfehler pro Probe
 :::
 
 ---
