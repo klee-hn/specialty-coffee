@@ -24,6 +24,14 @@ nav:
     - roestereien/suedseite-heidelberg/index.md
     - roestereien/epitome-erfurt/index.md
     - roestereien/mak-coffee-augsburg/index.md
+  - Anbaugebiete:
+    - anbaugebiete/index.md
+    - anbaugebiete/aethiopien/index.md
+    - anbaugebiete/brasilien/index.md
+    - anbaugebiete/kolumbien/index.md
+    - anbaugebiete/guatemala/index.md
+    - anbaugebiete/kenia/index.md
+    - anbaugebiete/indonesien/index.md
   - Magazin:
     - magazin/index.md
     - magazin/was-ist-specialty-coffee/index.md
