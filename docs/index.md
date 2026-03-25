@@ -13,3 +13,5 @@ Schnapp dir einen Kaffee, häng mit uns eine Runde ab und erfahre alles, was du 
 :::
 
 ---
+
+Von der Farm bis zur Tasse – Wissen, Röstereien und Geschichten aus der Specialty Coffee Welt.
