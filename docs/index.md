@@ -9,5 +9,5 @@ layout: landing
 Schnapp dir einen Kaffee, häng mit uns eine Runde ab und erfahre alles, was du über die Specialty Coffee Welt wissen musst.
 
 :::cta
-[All about Specialty Coffee](/specialty-coffee/) [Coffee Lifestyle](/magazin/)
+[Specialty Coffee](/specialty-coffee/) [Coffee Lifestyle](/magazin/)
 :::
