@@ -39,7 +39,7 @@ nav:
     - magazin/index.md
 
 header:
-  offerings: Lifestyle Magazin
+  offerings: false
   cta: false
 
 footer:
