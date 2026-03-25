@@ -150,6 +150,18 @@ h1, h2, h3, h4,
 }
 
 /* ================================================================
+   HOMEPAGE TAGLINE SECTION (direkt nach Hero, letzte Sektion)
+   ================================================================ */
+.section-hero + .section:last-child {
+  background: #140a04 !important;
+  color: #fff !important;
+}
+
+.section-hero + .section:last-child p {
+  color: #fff !important;
+}
+
+/* ================================================================
    LANDING SECTIONS (nach Hero)
    ================================================================ */
 .section {
