@@ -15,15 +15,6 @@ extra_css:
 
 nav:
   - index.md
-  - Röstereien:
-    - roestereien/index.md
-    - roestereien/kaffeekommune-mainz/index.md
-    - roestereien/maldaner-wiesbaden/index.md
-    - roestereien/onoma-flensburg/index.md
-    - roestereien/unbound-coffee-innsbruck/index.md
-    - roestereien/suedseite-heidelberg/index.md
-    - roestereien/epitome-erfurt/index.md
-    - roestereien/mak-coffee-augsburg/index.md
   - Specialty Coffee:
     - specialty-coffee/index.md
     - specialty-coffee/was-ist-specialty-coffee/index.md
@@ -35,8 +26,19 @@ nav:
     - anbaugebiete/guatemala/index.md
     - anbaugebiete/kenia/index.md
     - anbaugebiete/indonesien/index.md
+  - Röstereien:
+    - roestereien/index.md
+    - roestereien/kaffeekommune-mainz/index.md
+    - roestereien/maldaner-wiesbaden/index.md
+    - roestereien/onoma-flensburg/index.md
+    - roestereien/unbound-coffee-innsbruck/index.md
+    - roestereien/suedseite-heidelberg/index.md
+    - roestereien/epitome-erfurt/index.md
+    - roestereien/mak-coffee-augsburg/index.md
   - Lifestyle Magazin:
     - magazin/index.md
+  - Story:
+    - story/index.md
 
 header:
   offerings: false
