@@ -9,7 +9,7 @@ layout: landing
 Schnapp dir einen Kaffee, häng mit uns eine Runde ab und erfahre alles, was du über die Specialty Coffee Welt wissen musst.
 
 :::cta
-[Alle Röstereien entdecken](/roestereien/) [Zum Magazin](/magazin/)
+[All about Specialty Coffee](/specialty-coffee/) [Coffee Lifestyle](/magazin/)
 :::
 
 ---
