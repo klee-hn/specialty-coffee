@@ -6,6 +6,8 @@ layout: landing
 created: 2026-03-25
 ---
 
+# Specialty Coffee
+
 Was steckt wirklich hinter der Tasse?
 
 Specialty Coffee ist kein Marketingbegriff. Es ist ein Standard, eine Philosophie – und für viele eine Obsession. Hier findest du alles, was du wissen musst: von der Definition bis zum Anbaugebiet, von der Bohne bis zur Zubereitung.
