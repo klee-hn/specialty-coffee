@@ -4,9 +4,9 @@ description: "Der Specialty Coffee Hub stellt unabhängige Röstereien aus Deuts
 layout: landing
 ---
 
-# Terroir, Traceability, Röstkunst – Specialty Röstereien im Portrait
+# Welcome to the Specialty Coffee Shop
 
-Von Flensburg bis Innsbruck: Micro-Röstereien, die Single-Origin-Lots direkt von der Farm beziehen, mit Sorgfalt rösten und transparent kommunizieren – mit echten Portraits, Hintergründen und allem, was Kaffee-Nerds wissen wollen.
+Schnapp dir einen Kaffee, häng mit uns eine Runde ab und erfahre alles, was du über die Specialty Coffee Welt wissen musst.
 
 :::cta
 [Alle Röstereien entdecken](/roestereien/) [Zum Magazin](/magazin/)
