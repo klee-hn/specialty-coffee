@@ -12,12 +12,6 @@ Schnapp dir einen Kaffee, häng mit uns eine Runde ab und erfahre alles, was du 
 [Alle Röstereien entdecken](/roestereien/) [Zum Magazin](/magazin/)
 :::
 
-:::stats
-Transparenz | Woher kommt der Kaffee?
-Handwerk | Wie wird er geröstet?
-Geschmack | Was steckt in der Tasse?
-:::
-
 ---
 
 ## Röstereien
