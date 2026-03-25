@@ -24,7 +24,10 @@ nav:
     - roestereien/suedseite-heidelberg/index.md
     - roestereien/epitome-erfurt/index.md
     - roestereien/mak-coffee-augsburg/index.md
-  - Anbaugebiete:
+  - Specialty Coffee:
+    - specialty-coffee/index.md
+    - specialty-coffee/was-ist-specialty-coffee/index.md
+    - specialty-coffee/arabica-vs-robusta/index.md
     - anbaugebiete/index.md
     - anbaugebiete/aethiopien/index.md
     - anbaugebiete/brasilien/index.md
@@ -32,13 +35,13 @@ nav:
     - anbaugebiete/guatemala/index.md
     - anbaugebiete/kenia/index.md
     - anbaugebiete/indonesien/index.md
-  - Magazin:
+  - Lifestyle Magazin:
     - magazin/index.md
-    - magazin/was-ist-specialty-coffee/index.md
-    - magazin/arabica-robusta-kaffeesorten/index.md
+  - Autoren:
+    - authors/christopher-klee/index.md
 
 header:
-  offerings: Magazin
+  offerings: Lifestyle Magazin
   cta: false
 
 footer:

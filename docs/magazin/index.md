@@ -1,10 +1,10 @@
 ---
-title: Specialty Coffee Magazin – Wissen, Storys und Portraits
-description: Das Specialty Coffee Hub Magazin teilt Wissen über Kaffeeananbau, Röstung und Zubereitung sowie Storys und Portraits aus der Specialty Coffee Szene.
-short_title: Magazin
+title: Lifestyle Magazin – Storys, Portraits und Kaffeekultur
+description: Das Specialty Coffee Hub Lifestyle Magazin erzählt von Menschen, Orten und Momenten rund um Specialty Coffee. Storys und Portraits aus der Szene.
+short_title: Lifestyle Magazin
 layout: page
 ---
 
-# Magazin
+# Lifestyle Magazin
 
-Hintergründe, Portraits und Wissen rund um Specialty Coffee – von Menschen, die Kaffee wirklich ernst nehmen.
+Storys, Portraits und Momente aus der Specialty Coffee Welt – von Menschen, Orten und dem, was eine gute Tasse bedeutet.
