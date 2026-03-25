@@ -11,3 +11,5 @@ Schnapp dir einen Kaffee, häng mit uns eine Runde ab und erfahre alles, was du 
 :::cta
 [Specialty Coffee](/specialty-coffee/) [Coffee Lifestyle](/magazin/)
 :::
+
+---
