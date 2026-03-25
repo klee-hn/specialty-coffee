@@ -60,7 +60,7 @@ h1, h2, h3, h4,
       rgba(30, 12, 4, 0.50) 50%,
       rgba(15, 6, 2, 0.72) 100%
     ),
-    url('hero-beans.jpg') center / cover no-repeat !important;
+    url('hero-cafe.jpg') center / cover no-repeat !important;
   color: #fdf8f3 !important;
   min-height: 88vh;
   display: flex !important;
