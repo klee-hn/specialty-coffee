@@ -12,6 +12,7 @@ sources:
 - https://sca.coffee/
 title: Sensorik im Specialty Coffee – Aromen verstehen und trainieren
 wire_action: created
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Sensorik im Specialty Coffee – Aromen verstehen und trainieren

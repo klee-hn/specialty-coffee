@@ -5,6 +5,7 @@ short_title: MAK Afrika
 author: christopher-klee
 layout: article
 created: 2026-03-19
+extra_js: [/assets/nav-fix.js]
 ---
 
 # MAK Afrika Augsburg

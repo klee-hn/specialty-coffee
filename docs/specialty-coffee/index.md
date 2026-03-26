@@ -4,6 +4,7 @@ description: "Alles über Specialty Coffee: Was es bedeutet, woher die besten Bo
 short_title: Specialty Coffee
 layout: landing
 created: 2026-03-25
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Specialty Coffee
@@ -43,6 +44,10 @@ Die vollständige Antwort: Definition, Herkunft, Bewertungssystem und warum Spec
 ### Arabica, Robusta – und was sonst noch im Sack steckt
 Die meisten kennen die Namen, aber nicht den Unterschied. Dabei ist er fundamental – für Geschmack, Koffeingehalt, Anbaubedingungen und Preis. Und jenseits der zwei großen Spezies gibt es noch mehr zu entdecken.
 [Zum Artikel →](/specialty-coffee/arabica-vs-robusta/)
+
+### Sensorik – Aromen verstehen und trainieren
+Kaffee enthält über 800 Aromaverbindungen. Sensorik ist die Disziplin, die hilft, diese Komplexität wahrzunehmen und in Worte zu fassen – und jeder kann sie lernen.
+[Zum Artikel →](/magazin/sensorik-specialty-coffee/)
 :::
 
 ---

@@ -1,15 +1,21 @@
 /* ============================================================
-   Specialty Coffee Shop – Custom Theme v2
-   Modernes Design mit großem Hero-Bild
+   Specialty Coffee Shop – Custom Theme
+   Brand overrides via Wire CSS variables + site-specific styling
    ============================================================ */
 
-/* ---- Root overrides ---- */
+/* ---- Wire CSS Variable Overrides ---- */
 :root {
+  --primary: #5c3320;
+  --accent: #c8963c;
   --bg: #faf7f4;
   --bg-subtle: #f2ebe2;
   --bg-code: #ede4d8;
   --border: #d8c4aa;
   --border-subtle: #ece1d3;
+  --footer-bg: #140a04;
+  --footer-text: #b89870;
+  --footer-heading: #f0e0c8;
+  --radius: 8px;
 }
 
 /* ---- Headings: Lora Serif ---- */
@@ -162,60 +168,8 @@ h1, h2, h3, h4,
 }
 
 /* ================================================================
-   LANDING SECTIONS (nach Hero)
+   FEATURE CARDS – farbiger Akzentbalken pro Rösterei
    ================================================================ */
-.section {
-  padding: 80px 24px !important;
-}
-
-.section:nth-child(even) {
-  background: var(--bg-subtle);
-}
-
-.section h2 {
-  font-size: clamp(1.6rem, 1.2rem + 2vw, 2.4rem);
-  letter-spacing: -0.5px;
-  margin-bottom: 8px;
-}
-
-/* ================================================================
-   FEATURE CARDS
-   ================================================================ */
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 24px;
-  margin: 40px 0;
-}
-
-.feature-card {
-  background: #fff;
-  border: 1px solid var(--border-subtle);
-  border-radius: 16px;
-  padding: 0;
-  text-decoration: none;
-  color: inherit;
-  transition: box-shadow 0.25s, transform 0.2s;
-  display: block;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(60,30,10,0.06);
-}
-
-.feature-card:hover {
-  box-shadow: 0 12px 40px rgba(60,30,10,0.15);
-  transform: translateY(-4px);
-  color: inherit;
-  text-decoration: none;
-}
-
-/* Farbiger Akzentbalken oben */
-.feature-card::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background: linear-gradient(90deg, var(--primary), var(--accent));
-}
-
 a.feature-card[href*="kaffeekommune-mainz"]::before {
   background: linear-gradient(90deg, #6b3a2a, #c8963c);
 }
@@ -238,81 +192,8 @@ a.feature-card[href*="mak-coffee-augsburg"]::before {
   background: linear-gradient(90deg, #5a4a1a, #c8b040);
 }
 
-.feature-card h3 {
-  color: var(--primary);
-  margin: 22px 22px 10px;
-  font-size: 1.08rem;
-  font-family: 'Lora', Georgia, serif;
-  line-height: 1.35;
-}
-
-.feature-card p {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  line-height: 1.65;
-  margin: 0 22px 8px;
-}
-
-.feature-card .card-link {
-  display: inline-block;
-  color: var(--accent);
-  font-size: 0.85rem;
-  font-weight: 600;
-  margin: 10px 22px 22px;
-  letter-spacing: 0.02em;
-}
-
 /* ================================================================
-   STATS BAR
-   ================================================================ */
-.stats-bar {
-  display: flex;
-  background: var(--bg-subtle);
-  border: 1px solid var(--border-subtle);
-  border-radius: 16px;
-  margin: 40px 0;
-  overflow: hidden;
-}
-
-.stat {
-  flex: 1;
-  padding: 24px 16px;
-  text-align: center;
-  border-right: 1px solid var(--border-subtle);
-}
-
-.stat:last-child {
-  border-right: none;
-}
-
-.stat-value {
-  display: block;
-  color: var(--primary);
-  font-family: 'Lora', Georgia, serif;
-  font-size: 1.75rem;
-  font-weight: 600;
-  line-height: 1.15;
-}
-
-.stat-label {
-  display: block;
-  color: var(--text-muted);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  margin-top: 5px;
-}
-
-/* ================================================================
-   BANNER SHORTCODE
-   ================================================================ */
-.banner {
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-/* ================================================================
-   ARTICLE / SIDEBAR CTA
+   ARTIKEL-SEITE / SIDEBAR CTA
    ================================================================ */
 .sidebar-cta {
   background: linear-gradient(145deg, #2c1608, #5c3320);
@@ -331,63 +212,15 @@ a.feature-card[href*="mak-coffee-augsburg"]::before {
   color: #e8d5be;
 }
 
-/* Article CTA Block */
-.article-cta {
-  background: var(--bg-subtle);
-  border: 1px solid var(--border-subtle);
-  border-radius: 14px;
-  padding: 32px;
-  margin: 48px 0;
-}
-
 /* ================================================================
-   ARTIKEL-SEITE
+   SIDEBAR NAV – Mobiles Burger-Menü
    ================================================================ */
-.article-header {
-  margin-bottom: 40px;
-}
-
-article h1 {
-  font-size: clamp(1.8rem, 1.4rem + 2vw, 2.8rem);
-  letter-spacing: -0.5px;
-  line-height: 1.2;
-}
-
-article h2 {
-  font-size: 1.45rem;
-  margin-top: 48px;
-  letter-spacing: -0.3px;
-}
-
-article a {
-  color: var(--primary);
-  text-underline-offset: 3px;
-}
-
-article a:hover {
-  color: var(--accent);
-}
-
-/* ================================================================
-   PAGE HEADER
-   ================================================================ */
-.page-header {
-  border-bottom: 2px solid var(--border-subtle);
-  padding-bottom: 24px;
-  margin-bottom: 40px;
-}
-
-/* ================================================================
-   SIDEBAR NAV – auf Desktop ausblenden, Mobil per Toggle zeigen
-   ================================================================ */
-
-/* Mobiles Burger-Menü: Sidebar explizit anzeigen wenn geöffnet */
 .nav-toggle-input:checked ~ .layout .sidebar-nav {
   display: block !important;
 }
 
 /* ================================================================
-   FOOTER
+   FOOTER – kompaktes Layout
    ================================================================ */
 .site-footer .footer-inner {
   padding: 24px !important;
@@ -426,34 +259,6 @@ article a:hover {
 .footer-links li {
   padding: 0;
   margin: 0;
-}
-
-
-.site-footer {
-  background: #140a04;
-  color: #b89870;
-  border-top: 1px solid rgba(200,150,60,0.15);
-}
-
-.site-footer a {
-  color: #b89870;
-  transition: color 0.15s;
-}
-
-.site-footer a:hover {
-  color: #f0e0c8;
-}
-
-.site-footer .footer-logo {
-  color: #f0e0c8;
-}
-
-/* ================================================================
-   SPLIT SHORTCODE
-   ================================================================ */
-.split-grid {
-  border-radius: 12px;
-  overflow: hidden;
 }
 
 /* ================================================================
@@ -554,28 +359,6 @@ article a:hover {
     font-size: 1rem;
   }
 
-  .stats-bar {
-    flex-wrap: wrap;
-  }
-
-  .stat {
-    flex: 1 1 50%;
-    border-bottom: 1px solid var(--border-subtle);
-  }
-
-  .stat:nth-child(2n) {
-    border-right: none;
-  }
-
-  .stat:nth-last-child(-n+2) {
-    border-bottom: none;
-  }
-
-  .feature-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
   .hero-actions {
     flex-direction: column;
     align-items: center;
@@ -586,27 +369,5 @@ article a:hover {
     width: 100%;
     max-width: 280px;
     text-align: center;
-  }
-
-  .section {
-    padding: 56px 20px !important;
-  }
-}
-
-@media (max-width: 480px) {
-  .stat {
-    flex: 1 1 100%;
-    border-right: none;
-    border-bottom: 1px solid var(--border-subtle);
-  }
-
-  .stat:last-child {
-    border-bottom: none;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .feature-grid {
-    grid-template-columns: repeat(2, 1fr);
   }
 }

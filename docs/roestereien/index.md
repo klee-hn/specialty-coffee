@@ -3,9 +3,10 @@ title: Specialty Röstereien – Portraits und Empfehlungen
 description: Entdecke handverlesene Specialty Röstereien aus Deutschland und Österreich. Persönliche Portraits, ehrliche Empfehlungen und direkte Links zu besonderen Kaffeemachern.
 short_title: Röstereien
 layout: landing
+extra_js: [/assets/nav-fix.js]
 ---
 
-# Specialty Röstereien entdecken
+# Röstereien
 
 Guter Kaffee beginnt bei den Menschen, die ihn rösten. Wir besuchen kleine, handwerkliche Röstereien, lernen die Leute dahinter kennen und teilen hier, was uns begeistert hat. Jede Rösterei auf dieser Seite steht für eine eigene Haltung zum Kaffee – und genau das macht Specialty Coffee so spannend.
 

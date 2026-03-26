@@ -4,6 +4,7 @@ description: Schritt-für-Schritt-Anleitung für den Pour Over mit dem Hario V60
 short_title: Pour Over / V60
 created: 2026-03-25
 author: christopher-klee
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Pour Over mit dem Hario V60

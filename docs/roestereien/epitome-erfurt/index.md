@@ -5,6 +5,7 @@ short_title: Epitome Coffee
 author: christopher-klee
 layout: article
 created: 2026-03-19
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Epitome Coffee Co Erfurt

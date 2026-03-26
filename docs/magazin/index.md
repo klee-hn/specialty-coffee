@@ -3,6 +3,7 @@ title: Coffee Lifestyle – Geschichten, Portraits und Kaffeekultur
 description: Das Coffee Lifestyle Magazin erzählt von Menschen, Orten und besonderen Momenten rund um Specialty Coffee. Geschichten und Portraits aus der Szene.
 short_title: Coffee Lifestyle
 layout: landing
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Coffee Lifestyle

@@ -3,6 +3,7 @@ title: Kaffee-Anbaugebiete – Wo großartiger Kaffee seinen Anfang nimmt
 description: Die 6 bedeutendsten Kaffee-Anbaugebiete der Welt im Porträt. Von Äthiopiens Urwäldern bis Sumatras Regenwald – entdecke, was deinen Kaffee wirklich prägt.
 short_title: Anbaugebiete
 layout: landing
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Die wichtigsten Kaffee-Anbaugebiete

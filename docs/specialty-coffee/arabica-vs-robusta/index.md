@@ -5,6 +5,7 @@ short_title: Arabica & Robusta
 author: christopher-klee
 layout: article
 created: 2026-03-25
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Arabica, Robusta – und was sonst noch im Sack steckt

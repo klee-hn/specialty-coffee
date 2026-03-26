@@ -4,6 +4,7 @@ description: Datenschutzerklärung des Specialty Coffee Shop. Informationen zur 
 short_title: Datenschutz
 layout: page
 created: 2026-03-19
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Datenschutzerklärung
@@ -14,7 +15,6 @@ Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
 
 Specialty Coffee Shop
 Christopher Klee
-E-Mail: kontakt@specialty-coffee.shop
 
 ## 2. Allgemeines zur Datenverarbeitung
 

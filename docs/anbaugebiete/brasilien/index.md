@@ -5,6 +5,7 @@ short_title: Brasilien
 author: christopher-klee
 layout: article
 created: 2026-03-24
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Brasilien

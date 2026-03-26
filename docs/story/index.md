@@ -4,6 +4,7 @@ description: Drei Kaffeeliebhaber, eine Leidenschaft für Entschleunigung und de
 short_title: Story
 layout: landing
 created: 2026-03-25
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Unsere Story

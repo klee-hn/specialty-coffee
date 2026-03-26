@@ -2,6 +2,7 @@
 title: "Specialty Coffee Shop – Röstereien, Wissen & Kaffeekultur entdecken"
 description: "Der Specialty Coffee Shop stellt unabhängige Röstereien aus Deutschland und Österreich vor. Portraits, Hintergründe und direkter Link zur Rösterei."
 layout: landing
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Willkommen im Specialty Coffee Shop

@@ -3,6 +3,7 @@ title: Brühmethoden – Kaffee richtig zubereiten
 description: Von Pour Over bis French Press – alle wichtigen Brühmethoden im Überblick. Anleitungen, Tipps und Vergleiche für Specialty Coffee zu Hause.
 short_title: Brühmethoden
 layout: landing
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Brühmethoden

@@ -4,6 +4,7 @@ description: Impressum des Specialty Coffee Shop gemäß § 5 TMG.
 short_title: Impressum
 layout: page
 created: 2026-03-19
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Impressum
@@ -11,8 +12,6 @@ created: 2026-03-19
 **Angaben gemäß § 5 TMG**
 
 Specialty Coffee Shop
-Musterstraße 1
-00000 Musterstadt
-Deutschland
+Christopher Klee
 
-E-Mail: hallo@specialty-coffee.shop
+E-Mail: ck@wise-relations.com
