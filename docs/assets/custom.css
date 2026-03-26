@@ -381,7 +381,7 @@ article a:hover {
    SIDEBAR NAV – zweite Navigationsebene ausblenden
    ================================================================ */
 .sidebar-nav {
-  display: none !important;
+  display: none;
 }
 
 /* ================================================================
