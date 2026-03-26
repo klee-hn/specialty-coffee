@@ -1,11 +1,11 @@
 ---
-title: Christopher Klee – Autor Specialty Coffee Hub
+title: Christopher Klee – Autor Specialty Coffee Shop
 description: Christopher Klee entdeckt Specialty Coffee mit Begeisterung – immer auf der Suche nach neuen Trends, Röstereien und dem nächsten außergewöhnlichen Kaffee.
 short_title: Christopher Klee
 layout: article
 created: 2026-03-24
 role: Autor
-organization: Specialty Coffee Hub
+organization: Specialty Coffee Shop
 ---
 
 Entdecker mit Begeisterung. Klee verfolgt Trends, testet neue Röstereien und schreibt darüber so, dass man sofort mitkommen will – auch ohne Vorwissen.
@@ -28,4 +28,4 @@ Klee nähert sich Kaffee so, wie die meisten Menschen es tun: neugierig, ohne Vo
 Neue Röstereien, internationale Trends, aufstrebende Anbaugebiete. Klee ist oft früher dran als die Szene selbst erwartet – weil er einfach viel sucht, liest und fragt.
 :::
 
-Alle Artikel erscheinen im [Specialty Coffee Hub Magazin](/magazin/).
+Alle Artikel erscheinen im [Specialty Coffee Shop Magazin](/magazin/).

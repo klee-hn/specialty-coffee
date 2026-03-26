@@ -1,6 +1,6 @@
 ---
-title: "Specialty Coffee Hub - Röstereien entdecken"
-description: "Der Specialty Coffee Hub stellt unabhängige Röstereien aus Deutschland und Österreich vor. Portraits, Hintergründe und direkter Link zur Rösterei."
+title: "Specialty Coffee Shop - Röstereien entdecken"
+description: "Der Specialty Coffee Shop stellt unabhängige Röstereien aus Deutschland und Österreich vor. Portraits, Hintergründe und direkter Link zur Rösterei."
 layout: landing
 ---
 

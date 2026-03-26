@@ -1,6 +1,6 @@
 ---
 title: Datenschutzerklärung
-description: Datenschutzerklärung des Specialty Coffee Hub. Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.
+description: Datenschutzerklärung des Specialty Coffee Shop. Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.
 short_title: Datenschutz
 layout: page
 created: 2026-03-19

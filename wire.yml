@@ -1,4 +1,4 @@
-site_name: Specialty Coffee Hub
+site_name: Specialty Coffee Shop
 site_url: https://specialty-coffee.shop
 lang: de
 logo: false
@@ -48,7 +48,7 @@ header:
   cta: false
 
 footer:
-  copyright: "© 2026 Specialty Coffee Hub"
+  copyright: "© 2026 Specialty Coffee Shop"
   links:
     Rechtliches:
       - Impressum: /impressum/
@@ -58,7 +58,7 @@ extra:
   wire:
     sidebar_cta:
       title: "Rösterei eintragen"
-      description: "Du betreibst eine Specialty Rösterei? Werde Teil des Specialty Coffee Hub."
+      description: "Du betreibst eine Specialty Rösterei? Werde Teil des Specialty Coffee Shop."
       link: /roestereien/
       link_text: "Mehr erfahren"
     article_cta:

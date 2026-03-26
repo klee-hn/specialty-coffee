@@ -1,6 +1,6 @@
 ---
 title: Specialty Röstereien – Portraits und Empfehlungen
-description: Alle Specialty Röstereien im Specialty Coffee Hub. Portraits, Besonderheiten und direkte Links zu den Röstereien aus Deutschland und Österreich.
+description: Alle Specialty Röstereien im Specialty Coffee Shop. Portraits, Besonderheiten und direkte Links zu den Röstereien aus Deutschland und Österreich.
 short_title: Röstereien
 layout: landing
 ---
@@ -13,7 +13,7 @@ Wir lieben kleine, handwerkliche Kaffees und Röstereien. Hier sammeln wir Orte,
 
 ## Alle Röstereien
 
-Von der ersten Specialty-Adresse in Mainz bis zur transparenten Farmrösterei in Augsburg – hier findest du alle Röstereien, die Teil des Specialty Coffee Hub sind.
+Von der ersten Specialty-Adresse in Mainz bis zur transparenten Farmrösterei in Augsburg – hier findest du alle Röstereien, die Teil des Specialty Coffee Shop sind.
 
 <div class="roesterei-carousel">
   <a class="roesterei-card" href="/roestereien/kaffeekommune-mainz/">

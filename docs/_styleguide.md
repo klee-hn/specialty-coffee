@@ -1,7 +1,7 @@
-# Styleguide: Specialty Coffee Hub
+# Styleguide: Specialty Coffee Shop
 
 ## Konzept
-Der Specialty Coffee Hub ist eine Plattform, auf der sich Specialty Röstereien aus dem deutschsprachigen Raum vorstellen. Das Magazin teilt Wissen, Storys und Portraits aus der Szene.
+Der Specialty Coffee Shop ist eine Plattform, auf der sich Specialty Röstereien aus dem deutschsprachigen Raum vorstellen. Das Magazin teilt Wissen, Storys und Portraits aus der Szene.
 
 ## Ton und Stimme
 - Leidenschaftlich, auf Augenhöhe, respektvoll gegenüber den Röstereien

@@ -1,6 +1,6 @@
 ---
-title: Unsere Story – Warum der Specialty Coffee Hub existiert
-description: Drei Kaffeeliebhaber, eine Leidenschaft für Entschleunigung und der Wunsch, Wissen und Erfahrungen zu teilen. Das ist der Specialty Coffee Hub.
+title: Unsere Story – Warum der Specialty Coffee Shop existiert
+description: Drei Kaffeeliebhaber, eine Leidenschaft für Entschleunigung und der Wunsch, Wissen und Erfahrungen zu teilen. Das ist der Specialty Coffee Shop.
 short_title: Story
 layout: landing
 created: 2026-03-25
@@ -39,7 +39,7 @@ Geschmack entsteht nicht zufällig. Er ist das Ergebnis von Entscheidungen auf d
 
 Wir hatten Erfahrungen gesammelt. Röstereien besucht, Kaffees probiert, Bücher gelesen, mit Leuten gesprochen. Und irgendwann wurde der Wunsch größer, das zu teilen – nicht als Experten, sondern als Entdecker.
 
-Der Specialty Coffee Hub ist kein Magazin im klassischen Sinne. Er ist ein Ort zum Vorstellen und Entdecken. Röstereien, die wir gut finden. Wissen, das uns weitergeholfen hat. Geschichten, die das Handwerk hinter dem Kaffee erklären.
+Der Specialty Coffee Shop ist kein Magazin im klassischen Sinne. Er ist ein Ort zum Vorstellen und Entdecken. Röstereien, die wir gut finden. Wissen, das uns weitergeholfen hat. Geschichten, die das Handwerk hinter dem Kaffee erklären.
 
 ---
 

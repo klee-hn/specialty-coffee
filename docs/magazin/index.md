@@ -1,6 +1,6 @@
 ---
 title: Coffee Lifestyle – Storys, Portraits und Kaffeekultur
-description: Das Specialty Coffee Hub Lifestyle Magazin erzählt von Menschen, Orten und Momenten rund um Specialty Coffee. Storys und Portraits aus der Szene.
+description: Das Specialty Coffee Shop Lifestyle Magazin erzählt von Menschen, Orten und Momenten rund um Specialty Coffee. Storys und Portraits aus der Szene.
 short_title: Coffee Lifestyle
 layout: landing
 ---

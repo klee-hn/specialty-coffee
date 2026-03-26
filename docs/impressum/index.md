@@ -1,6 +1,6 @@
 ---
 title: Impressum
-description: Impressum des Specialty Coffee Hub gemäß § 5 TMG.
+description: Impressum des Specialty Coffee Shop gemäß § 5 TMG.
 short_title: Impressum
 layout: page
 created: 2026-03-19
@@ -10,7 +10,7 @@ created: 2026-03-19
 
 **Angaben gemäß § 5 TMG**
 
-Specialty Coffee Hub
+Specialty Coffee Shop
 Musterstraße 1
 00000 Musterstadt
 Deutschland
