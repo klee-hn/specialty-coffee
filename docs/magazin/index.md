@@ -9,6 +9,8 @@ layout: landing
 
 Storys, Portraits und Momente aus der Specialty Coffee Welt – von Menschen, Orten und dem, was eine gute Tasse bedeutet.
 
-:::recent 6
-
+:::cards
+### Sensorik & Aromen im Specialty Coffee
+Wie Sensorik im Specialty Coffee funktioniert: Aromenrad, Cupping, Geschmackswahrnehmung und wie du deine Sinne trainierst.
+[Zum Artikel](/magazin/sensorik-specialty-coffee/)
 :::
