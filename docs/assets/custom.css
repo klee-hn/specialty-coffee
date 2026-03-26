@@ -389,11 +389,21 @@ article a:hover {
 /* ================================================================
    FOOTER
    ================================================================ */
+.site-footer .footer-inner {
+  padding: 24px !important;
+}
+
 .footer-grid {
   display: flex !important;
   flex-direction: column !important;
   align-items: flex-start !important;
-  gap: 0;
+  gap: 0 !important;
+  margin-bottom: 16px !important;
+}
+
+.footer-brand {
+  min-width: unset !important;
+  flex: unset !important;
 }
 
 .footer-heading {
