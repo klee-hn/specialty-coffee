@@ -378,10 +378,12 @@ article a:hover {
 }
 
 /* ================================================================
-   SIDEBAR NAV – zweite Navigationsebene ausblenden
+   SIDEBAR NAV – auf Desktop ausblenden, Mobil per Toggle zeigen
    ================================================================ */
-.sidebar-nav {
-  display: none;
+
+/* Mobiles Burger-Menü: Sidebar explizit anzeigen wenn geöffnet */
+.nav-toggle-input:checked ~ .layout .sidebar-nav {
+  display: block !important;
 }
 
 /* ================================================================
