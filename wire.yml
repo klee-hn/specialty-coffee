@@ -15,17 +15,6 @@ extra_css:
 
 nav:
   - index.md
-  - Specialty Coffee:
-    - specialty-coffee/index.md
-    - specialty-coffee/was-ist-specialty-coffee/index.md
-    - specialty-coffee/arabica-vs-robusta/index.md
-    - anbaugebiete/index.md
-    - anbaugebiete/aethiopien/index.md
-    - anbaugebiete/brasilien/index.md
-    - anbaugebiete/kolumbien/index.md
-    - anbaugebiete/guatemala/index.md
-    - anbaugebiete/kenia/index.md
-    - anbaugebiete/indonesien/index.md
   - Röstereien:
     - roestereien/index.md
     - roestereien/kaffeekommune-mainz/index.md
@@ -35,12 +24,22 @@ nav:
     - roestereien/suedseite-heidelberg/index.md
     - roestereien/epitome-erfurt/index.md
     - roestereien/mak-coffee-augsburg/index.md
-  - Brühmethoden:
+  - Anbaugebiete:
+    - anbaugebiete/index.md
+    - anbaugebiete/aethiopien/index.md
+    - anbaugebiete/brasilien/index.md
+    - anbaugebiete/kolumbien/index.md
+    - anbaugebiete/guatemala/index.md
+    - anbaugebiete/kenia/index.md
+    - anbaugebiete/indonesien/index.md
+  - Brewing:
     - bruehmethoden/index.md
     - bruehmethoden/pour-over-v60/index.md
-  - Lifestyle Magazin:
+  - Lifestyle:
     - magazin/index.md
     - magazin/sensorik-specialty-coffee/index.md
+    - specialty-coffee/was-ist-specialty-coffee/index.md
+    - specialty-coffee/arabica-vs-robusta/index.md
   - Story:
     - story/index.md
 
