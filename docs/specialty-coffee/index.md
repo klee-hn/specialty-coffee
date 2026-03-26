@@ -12,14 +12,14 @@ Was steckt wirklich hinter der Tasse?
 
 Specialty Coffee ist kein Marketingbegriff. Es ist ein Standard, eine Philosophie – und für viele eine Obsession. Hier findest du alles, was du wissen musst: von der Definition bis zum Anbaugebiet, von der Bohne bis zur Zubereitung.
 
+---
+
 :::stats
 **80+** | SCA-Mindestpunktzahl
 **800+** | Aromastoffe in einer Tasse
 **3** | Kaffeespezies von Bedeutung
 **70+** | Länder mit Kaffeeanbau
 :::
-
----
 
 ## Die Grundlage: Was ist Specialty Coffee?
 
