@@ -48,7 +48,11 @@ header:
   cta: false
 
 footer:
-  copyright: "© 2026 Specialty Coffee Shop · <a href='/impressum/'>Impressum</a> · <a href='/datenschutz/'>Datenschutz</a>"
+  copyright: "© 2026 Specialty Coffee Shop"
+  links:
+    Legal:
+      - Impressum: /impressum/
+      - Datenschutz: /datenschutz/
 
 extra:
   wire:

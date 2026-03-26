@@ -387,6 +387,16 @@ article a:hover {
 /* ================================================================
    FOOTER
    ================================================================ */
+.footer-links-group h4,
+.footer-links-group h3 {
+  display: none;
+}
+
+.footer-links-group ul {
+  margin-top: 0;
+}
+
+
 .site-footer {
   background: #140a04;
   color: #b89870;
