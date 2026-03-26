@@ -9,6 +9,6 @@ layout: landing
 
 Storys, Portraits und Momente aus der Specialty Coffee Welt – von Menschen, Orten und dem, was eine gute Tasse bedeutet.
 
----
+:::recent 6
 
-Demnächst erscheinen hier Storys und Portraits aus der Specialty Coffee Szene.
+:::
