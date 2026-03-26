@@ -387,13 +387,27 @@ article a:hover {
 /* ================================================================
    FOOTER
    ================================================================ */
-.footer-links-group h4,
-.footer-links-group h3 {
-  display: none;
+.footer-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 12px;
 }
 
-.footer-links-group ul {
-  margin-top: 0;
+.footer-heading {
+  display: none !important;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links li {
+  padding: 0;
 }
 
 
