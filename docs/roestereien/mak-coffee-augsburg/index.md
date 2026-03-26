@@ -1,6 +1,6 @@
 ---
 title: MAK Afrika Augsburg – Kaffee vom Mount Meru in Tansania
-description: MAK Afrika in Augsburg röstet ausschließlich Kaffee vom Mount Meru in Tansania. Gründer Allan Mutagwaba arbeitet direkt mit 28 Farmfamilien zusammen.
+description: MAK Afrika in Augsburg röstet ausschließlich Kaffee vom Mount Meru. Gründer Allan Mutagwaba arbeitet direkt mit 28 Farmfamilien – fair, transparent, persönlich.
 short_title: MAK Afrika
 author: christopher-klee
 layout: article
@@ -9,19 +9,19 @@ created: 2026-03-19
 
 # MAK Afrika Augsburg
 
-MAK Afrika ist mehr als eine Rösterei. Hinter dem Augsburger Café in der Karlstraße 7 steht eine Geschichte, die 2015 in Norwegen begann: Katharina und Allan Mutagwaba – Allan stammt aus der Meru-Region in Tansania – entwickelten die Idee, Kaffee vom Mount Meru direkt nach Deutschland zu bringen. Im Dezember 2015 folgte der erste Besuch bei den Farmfamilien. Im September 2018 öffnete das Café.
+Hinter MAK Afrika steckt mehr als eine Rösterei – es steckt eine persönliche Geschichte. 2015 in Norwegen: Katharina und Allan Mutagwaba, er stammt aus der Meru-Region in Tansania, fassen den Entschluss, Kaffee vom Mount Meru direkt nach Deutschland zu bringen. Nicht als Geschäftsidee vom Reißbrett, sondern weil Allan genau weiß, welcher Kaffee dort wächst und wer ihn anbaut. Im Dezember 2015 besuchen sie zum ersten Mal gemeinsam die Farmfamilien. Im September 2018 öffnet das Café in der Karlstraße 7 in Augsburg.
 
 ## 28 Farmfamilien am Mount Meru
 
-MAK Afrika bezieht seinen Kaffee ausschließlich von 28 Familienbetrieben der Aranga Coffee Group am Fuß des Mount Meru in Tansania. Die Zusammenarbeit ist direkt: keine Zwischenhändler, überdurchschnittliche Preise für die Produzenten. Pro verkauftem Kilogramm Kaffee fließt ein Euro in soziale Projekte in der Meru-Region – Schulen, Infrastruktur, Gesundheitsversorgung.
+Das Besondere an MAK Afrika: Der gesamte Kaffee stammt ausschließlich von 28 Familienbetrieben der Aranga Coffee Group am Fuß des Mount Meru. Die Zusammenarbeit ist direkt und persönlich – keine Zwischenhändler, überdurchschnittliche Preise für die Produzenten. Und das geht noch weiter: Pro verkauftem Kilogramm Kaffee fließt ein Euro in soziale Projekte in der Meru-Region – Schulen, Infrastruktur, Gesundheitsversorgung. Du trinkst hier nicht nur guten Kaffee, sondern unterstützt damit konkret die Menschen, die ihn anbauen.
 
-"MAK steht für den besten Kaffee – fair geerntet in Tansania, geröstet in Augsburg, perfekt für dich zubereitet."
+„MAK steht für den besten Kaffee – fair geerntet in Tansania, geröstet in Augsburg, perfekt für dich zubereitet."
 
 ## Röstung und Café
 
-Der Röstprozess bei MAK Afrika erfolgt in einer handwerklichen Trommelröstmaschine, die für eine gleichmäßige Aromaentwicklung optimiert ist. Im Café können Gäste neben dem Kaffee auch authentische tansanische Gerichte bestellen – Chapati, Sambusa – sowie hausgemachte Kuchen. Das Café hat montags bis donnerstags von 11 bis 18:30 Uhr und freitags bis samstags von 9 bis 18:30 Uhr geöffnet.
+Der Röstprozess erfolgt in einer handwerklichen Trommelröstmaschine, optimiert für eine gleichmäßige Aromaentwicklung, die den Charakter des Mount-Meru-Kaffees zur Geltung bringt. Im Café erwartet dich aber nicht nur Kaffee: Authentische tansanische Gerichte wie Chapati und Sambusa stehen auf der Karte, dazu hausgemachte Kuchen. Das Café ist montags bis donnerstags von 11 bis 18:30 Uhr und freitags bis samstags von 9 bis 18:30 Uhr geöffnet – ein Stück Tansania mitten in Augsburg.
 
-MAK Afrika ist ein Beispiel dafür, was direkte Handelsbeziehungen konkret bedeuten. Andere Röstereien mit diesem Anspruch findet man in der [Röstereien-Übersicht](/roestereien/) – darunter [Unbound Coffee Roasters](/roestereien/unbound-coffee-innsbruck/) in Innsbruck und [Onoma Kaffee](/roestereien/onoma-flensburg/) in Flensburg.
+MAK Afrika zeigt, was direkte Handelsbeziehungen konkret bewirken können – für die Qualität in der Tasse und für die Lebensbedingungen der Produzenten. Andere Röstereien mit diesem Anspruch findet man in der [Röstereien-Übersicht](/roestereien/) – darunter [Unbound Coffee Roasters](/roestereien/unbound-coffee-innsbruck/) in Innsbruck und [Onoma Kaffee](/roestereien/onoma-flensburg/) in Flensburg.
 
 ## Zur Rösterei
 

@@ -1,6 +1,6 @@
 ---
 title: Kaffeekommune Mainz – Erste Specialty-Rösterei der Stadt
-description: Kaffeekommune in Mainz röstete seit 2010 Specialty Coffee mit Leidenschaft. Direktimport, Omni-Roasts und ein Café mit historischem Gewölbe.
+description: Die Kaffeekommune ist Mainz' Specialty-Pionierin seit 2010. Direkter Farmkontakt, ehrliche Omni-Roasts und Barista-Kurse im Backsteingewölbe.
 short_title: Kaffeekommune
 author: christopher-klee
 layout: article
@@ -9,19 +9,19 @@ created: 2026-03-19
 
 # Kaffeekommune Mainz
 
-Die Kaffeekommune ist die erste Specialty-Rösterei in Mainz. Seit 2010 arbeitet das Team in der Breidenbacherstraße 9 mit einem klaren Anspruch: Geschmack kommt zuerst. Nicht als Slogan, sondern als täglich gelebte Praxis – von der Auswahl der Rohkaffeelots über die Röstung bis zur Zubereitung im Café.
+Als die Kaffeekommune 2010 ihre Türen in der Breidenbacherstraße 9 öffnete, gab es in Mainz schlicht keinen Specialty Coffee. Keine Pour-over-Bar, keine Single Origins, kein Café, das sich ernsthaft mit Rohkaffeequalität beschäftigte. Das Team um die Kaffeekommune hat das geändert – und dabei von Anfang an klar gemacht: Geschmack kommt zuerst. Nicht als Slogan auf der Wand, sondern als tägliche Praxis, die man in jeder Tasse schmeckt.
 
 ## Direktkontakte statt anonymer Handelsketten
 
-Was die Kaffeekommune von Beginn an ausgezeichnet hat, ist der direkte Draht zu den produzierenden Farmen. Die Beans werden nicht über Zwischenhändler eingekauft, sondern in direkten Handelsbeziehungen bezogen. Das hat einen konkreten Effekt auf die Tasse: Die Herkunft ist nachvollziehbar, die Qualität gezielt steuerbar.
+Was die Kaffeekommune besonders macht, ist der direkte Draht zu den Farmen. Hier landet kein anonymer Rohkaffee im Röster – die Beans werden in persönlichen Handelsbeziehungen bezogen. Du merkst das in der Tasse: Die Herkunft ist nachvollziehbar, jeder Kaffee hat einen eigenen Charakter.
 
-Das Sortiment umfasst sechs Single Origins, zwei Blends und einen Decaf. Alle Kaffees sind als Omni-Roast angelegt – das bedeutet, sie funktionieren sowohl als Espresso als auch als Filter. Wer sich nicht entscheiden möchte oder kann, bekommt im Café täglich drei bis vier verschiedene Batch-Brews angeboten.
+Im Sortiment findest du sechs Single Origins, zwei Blends und einen Decaf. Alle Kaffees sind als Omni-Roast angelegt – sie funktionieren sowohl als Espresso als auch als Filter. Falls du dich nicht entscheiden kannst: Im Café stehen täglich drei bis vier verschiedene Batch-Brews bereit. Einfach durchprobieren.
 
 ## Café, Rösterei und Lernort in einem
 
-Das Café der Kaffeekommune sitzt in einem Gewölberaum mit Backsteinwänden im Mainzer Stadtkern. Die Atmosphäre ist ruhig, der Service professionell und erklärfreudig. Wer tiefer einsteigen möchte, findet regelmäßige Barista-Kurse und Cuppings im Programm – für Einsteiger wie für Fortgeschrittene.
+Das Café sitzt in einem wunderschönen Gewölberaum mit Backsteinwänden mitten im Mainzer Stadtkern. Die Atmosphäre ist entspannt, das Team erklärt gerne und merkt schnell, ob du Einsteiger bist oder schon tiefer im Thema steckst. Wer mehr will als „nur" Kaffee trinken, findet regelmäßige Barista-Kurse und Cuppings im Programm.
 
-Die Kaffeekommune war lange Zeit die einzige Anlaufstelle für Specialty Coffee in Mainz. Inzwischen wächst die Szene – aber die Kaffeekommune bleibt der Ausgangspunkt. Wer andere [Specialty Röstereien](/roestereien/) entdecken möchte, findet auch [Maldaner Coffee Roasters](/roestereien/maldaner-wiesbaden/) in Wiesbaden und [Südseite](/roestereien/suedseite-heidelberg/) in Heidelberg in der Nähe.
+Die Kaffeekommune war lange die einzige Anlaufstelle für guten Kaffee in Mainz. Inzwischen wächst die Szene – aber der Ausgangspunkt bleibt. Wer weitere [Specialty Röstereien](/roestereien/) entdecken möchte, findet auch [Maldaner Coffee Roasters](/roestereien/maldaner-wiesbaden/) in Wiesbaden und [Südseite](/roestereien/suedseite-heidelberg/) in Heidelberg in der Nähe.
 
 ## Zur Rösterei
 

@@ -1,67 +1,67 @@
 ---
 title: Specialty Röstereien – Portraits und Empfehlungen
-description: Alle Specialty Röstereien im Specialty Coffee Shop. Portraits, Besonderheiten und direkte Links zu den Röstereien aus Deutschland und Österreich.
+description: Entdecke handverlesene Specialty Röstereien aus Deutschland und Österreich. Persönliche Portraits, ehrliche Empfehlungen und direkte Links zu besonderen Kaffeemachern.
 short_title: Röstereien
 layout: landing
 ---
 
 # Specialty Röstereien entdecken
 
-Wir lieben kleine, handwerkliche Kaffees und Röstereien. Hier sammeln wir Orte, an denen wir schon waren und die wir mit euch teilen wollen.
+Guter Kaffee beginnt bei den Menschen, die ihn rösten. Wir besuchen kleine, handwerkliche Röstereien, lernen die Leute dahinter kennen und teilen hier, was uns begeistert hat. Jede Rösterei auf dieser Seite steht für eine eigene Haltung zum Kaffee – und genau das macht Specialty Coffee so spannend.
 
 ---
 
 ## Alle Röstereien
 
-Von der ersten Specialty-Adresse in Mainz bis zur transparenten Farmrösterei in Augsburg – hier findest du alle Röstereien, die Teil des Specialty Coffee Shop sind.
+Von der Pionier-Rösterei in Mainz über ein 165 Jahre altes Kaffeehaus in Wiesbaden bis zur Farm-to-Cup-Geschichte aus Tansania – hier findest du alle Röstereien, die Teil des Specialty Coffee Shop sind. Jedes Portrait erzählt eine eigene Geschichte.
 
 <div class="roesterei-carousel">
   <a class="roesterei-card" href="/roestereien/kaffeekommune-mainz/">
     <div class="roesterei-card-body">
       <h3>Kaffeekommune Mainz</h3>
-      <p>Mainz' erste Specialty-Rösterei seit 2010. Direkte Farmkontakte, Omni-Roasts und Barista-Kurse in historischem Gewölbe.</p>
+      <p>Mainz' Specialty-Pionierin seit 2010. Direkter Farmkontakt, ehrliche Omni-Roasts und Barista-Kurse in einem atmosphärischen Backsteingewölbe.</p>
       <span class="card-link">Zum Portrait →</span>
     </div>
   </a>
   <a class="roesterei-card" href="/roestereien/maldaner-wiesbaden/">
     <div class="roesterei-card-body">
       <h3>Maldaner Coffee Roasters</h3>
-      <p>Seit 1859 in Wiesbaden. Erstes „Original Wiener Kaffeehaus" in Deutschland – heute auch als moderne Specialty-Rösterei.</p>
+      <p>165 Jahre Kaffeetradition, neu gedacht. Wiesbadens ältestes Kaffeehaus verbindet Wiener Kaffeehauskultur mit moderner Specialty-Röstung.</p>
       <span class="card-link">Zum Portrait →</span>
     </div>
   </a>
   <a class="roesterei-card" href="/roestereien/onoma-flensburg/">
     <div class="roesterei-card-body">
       <h3>Onoma Kaffee Flensburg</h3>
-      <p>„Spezialitätenkaffee mit Haltung." Seit 2021 die erste Specialty-only-Rösterei in Flensburg. Kleine Lots, Direktimport, Sensorikkurse.</p>
+      <p>Spezialitätenkaffee mit Haltung. Flensburgs erste reine Specialty-Rösterei setzt auf saisonale Lots, Direktimport und kompromisslose Transparenz.</p>
       <span class="card-link">Zum Portrait →</span>
     </div>
   </a>
   <a class="roesterei-card" href="/roestereien/unbound-coffee-innsbruck/">
     <div class="roesterei-card-body">
       <h3>Unbound Coffee Roasters</h3>
-      <p>Gegründet 2017 in Innsbruck. Schaurösterei in Wattens, „Trace Back to Farm"-Siegel und direkte Partnerships mit 10 Farmen.</p>
+      <p>Jede Tasse zurückverfolgbar bis zur Farm. Schaurösterei in den alten Swarovski-Hallen, Café in Innsbruck und zehn direkte Farmpartnerschaften.</p>
       <span class="card-link">Zum Portrait →</span>
     </div>
   </a>
   <a class="roesterei-card" href="/roestereien/suedseite-heidelberg/">
     <div class="roesterei-card-body">
       <h3>Südseite Heidelberg</h3>
-      <p>Specialty Coffee, Sauerteigbäckerei und Rösterei unter einem Dach in einem historischen Mühlengebäude am Neckar.</p>
+      <p>Wo Kaffeeduft auf Sauerteig trifft. Rösterei, Bäckerei und Café in einem historischen Mühlengebäude am Neckar – Handwerk zum Zusehen.</p>
       <span class="card-link">Zum Portrait →</span>
     </div>
   </a>
   <a class="roesterei-card" href="/roestereien/epitome-erfurt/">
     <div class="roesterei-card-body">
       <h3>Epitome Coffee Co Erfurt</h3>
-      <p>Small-Batch-Rösterei am Fischmarkt. Klimaneutrale Röstung, 100% biologisch abbaubare Verpackung, Premium-Arabicas weltweit.</p>
+      <p>Australischer Spirit am Erfurter Fischmarkt. Klimaneutrale Small-Batch-Röstung, 100% biologisch abbaubare Verpackung und Premium-Arabicas aus aller Welt.</p>
       <span class="card-link">Zum Portrait →</span>
     </div>
   </a>
   <a class="roesterei-card" href="/roestereien/mak-coffee-augsburg/">
     <div class="roesterei-card-body">
       <h3>MAK Afrika Augsburg</h3>
-      <p>Kaffee vom Mount Meru, Tansania. 28 Farmfamilien, faire Preise, 1 Euro pro Kilo für soziale Projekte vor Ort.</p>
+      <p>Eine Liebesgeschichte zwischen Augsburg und dem Mount Meru. 28 Farmfamilien, faire Preise und ein Euro pro Kilo für soziale Projekte in Tansania.</p>
       <span class="card-link">Zum Portrait →</span>
     </div>
   </a>

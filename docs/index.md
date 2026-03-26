@@ -1,12 +1,12 @@
 ---
-title: "Specialty Coffee Shop - Röstereien entdecken"
+title: "Specialty Coffee Shop – Röstereien, Wissen & Kaffeekultur entdecken"
 description: "Der Specialty Coffee Shop stellt unabhängige Röstereien aus Deutschland und Österreich vor. Portraits, Hintergründe und direkter Link zur Rösterei."
 layout: landing
 ---
 
-# Welcome to the Specialty Coffee Shop
+# Willkommen im Specialty Coffee Shop
 
-Schnapp dir einen Kaffee, häng mit uns eine Runde ab und erfahre alles, was du über die Specialty Coffee Welt wissen musst.
+Kaffee ist mehr als ein Getränk – er erzählt Geschichten. Von Menschen, die ihn anbauen, von Röstereien, die ihm Charakter geben, und von Momenten, in denen eine Tasse den Unterschied macht. Hier findest du genau diese Geschichten.
 
 :::cta
 [Specialty Coffee](/specialty-coffee/) [Coffee Lifestyle](/magazin/)
@@ -14,4 +14,4 @@ Schnapp dir einen Kaffee, häng mit uns eine Runde ab und erfahre alles, was du 
 
 ---
 
-Von der Farm bis zur Tasse – Wissen, Röstereien und Geschichten aus der Specialty Coffee Welt.
+Von der Farm bis in die Tasse: Wir stellen dir unabhängige Röstereien vor, teilen Wissen rund um Specialty Coffee und erzählen die Geschichten hinter dem Handwerk.

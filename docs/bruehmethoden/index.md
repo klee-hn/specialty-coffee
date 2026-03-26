@@ -7,6 +7,6 @@ layout: landing
 
 # Brühmethoden
 
-Wie Kaffee gebrüht wird, bestimmt maßgeblich was im Ergebnis im die Tasse kommt. Jede Methode betont andere Aromen, erfordert andere Mahlgrade und bringt unterschiedliche Erlebnisse mit sich.
+Die Art, wie du deinen Kaffee brühst, entscheidet darüber, welche Aromen in deiner Tasse landen. Jede Methode setzt andere Geschmacksnuancen frei, verlangt einen eigenen Mahlgrad und erzeugt ein ganz eigenes Trinkerlebnis – von vollmundig und kräftig bis klar und filigran.
 
-Hier findest du fundierte Anleitungen zu den wichtigsten Brühmethoden – von der klassischen French Press bis zum präzisen Pour Over.
+Hier findest du fundierte Anleitungen zu den wichtigsten Brühmethoden – von der klassischen French Press bis zum präzisen Pour Over. Probier dich durch und finde heraus, welche Methode zu deinem Kaffee und deinem Alltag passt.

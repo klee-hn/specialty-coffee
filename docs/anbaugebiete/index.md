@@ -1,13 +1,13 @@
 ---
-title: Kaffee Anbaugebiete – Die wichtigsten Regionen der Welt
-description: Die 6 bedeutendsten Kaffee-Anbaugebiete im Überblick. Äthiopien, Brasilien, Kolumbien, Guatemala, Kenia und Indonesien – Herkunft, Aromen und Besonderheiten.
+title: Kaffee-Anbaugebiete – Wo großartiger Kaffee seinen Anfang nimmt
+description: Die 6 bedeutendsten Kaffee-Anbaugebiete der Welt im Porträt. Von Äthiopiens Urwäldern bis Sumatras Regenwald – entdecke, was deinen Kaffee wirklich prägt.
 short_title: Anbaugebiete
 layout: landing
 ---
 
 # Die wichtigsten Kaffee-Anbaugebiete
 
-Specialty Coffee beginnt nicht in der Rösterei – er beginnt auf der Farm. Wo ein Kaffee angebaut wird, entscheidet maßgeblich über seinen Charakter: Aromen, Säure, Körper und Süße werden durch Höhenlage, Boden, Klima und Aufbereitung geprägt.
+Bevor ein Kaffee in deiner Tasse landet, hat er eine Reise hinter sich, die irgendwo zwischen Wendekreisen beginnt – auf vulkanischem Boden, in nebelverhangenen Hochländern oder zwischen tropischen Regenwäldern. Der Ort, an dem ein Kaffee wächst, ist kein Detail auf dem Etikett. Er ist der Grundstein seines Charakters: Höhenlage formt die Säure, Boden gibt den Körper, Klima bestimmt die Süße, und die Aufbereitung setzt den letzten Akzent.
 
 :::stats
 6 | Anbaugebiete
@@ -22,32 +22,32 @@ Specialty Coffee beginnt nicht in der Rösterei – er beginnt auf der Farm. Wo 
 
 :::cards
 ### Äthiopien
-Die Heimat des Kaffees. Blumig, fruchtig, komplex – Yirgacheffe und Sidama zählen zu den faszinierendsten Ursprüngen der Welt.
+Wo alles begann. In den Nebelwäldern von Kaffa wuchs die erste Kaffeepflanze wild – und noch heute liefert Äthiopien Aromen, die nirgendwo sonst auf der Welt zu finden sind: Jasmin, Bergamotte, reife Blaubeeren.
 
 [Zur Region](/anbaugebiete/aethiopien/)
 
 ### Brasilien
-Größter Kaffeeproduzent der Welt. Nussig, schokoladig, weich – die Grundlage vieler Espresso-Blends und zunehmend im Specialty-Bereich präsent.
+Ein Koloss mit Feingefühl. 40 % des Weltkaffees kommen aus Brasilien – doch hinter den Zahlen verbirgt sich eine Specialty-Szene, die mit nussiger Süße und cremigem Schmelz überrascht.
 
 [Zur Region](/anbaugebiete/brasilien/)
 
 ### Kolumbien
-Ganzjährige Ernte, zwei Saisons pro Jahr. Ausgewogen, karamellig, rote Früchte – einer der bekanntesten Kaffee-Ursprünge überhaupt.
+Drei Andenkordilleren, zwei Ernten pro Jahr, unzählige Mikroklimata. Kolumbien liefert Kaffees von samtiger Balance – Karamell, rote Kirschen und eine Säure, die nie zu laut wird.
 
 [Zur Region](/anbaugebiete/kolumbien/)
 
 ### Guatemala
-Vulkanböden, acht Anbauregionen, reiche Aromen. Antigua und Huehuetenango produzieren einige der charaktervollsten Kaffees Mittelamerikas.
+Zwischen Vulkanen eingekesselt, von Asche genährt. Guatemalas acht Anbauregionen bringen Kaffees hervor, die nach dunkler Schokolade, Gewürznelke und reifer Aprikose schmecken – kraftvoll und doch elegant.
 
 [Zur Region](/anbaugebiete/guatemala/)
 
 ### Kenia
-Intensive Säure, Schwarze Johannisbeere, Tomaten. Die SL28- und SL34-Bohnen aus Nyeri und Kirinyaga gelten als Referenz für afrikanischen Specialty Coffee.
+Kein Kaffee polarisiert so wie kenianischer. Schwarze Johannisbeere, Tomate, elektrisierende Säure – wer SL28-Bohnen aus Nyeri einmal probiert hat, vergisst sie nicht wieder.
 
 [Zur Region](/anbaugebiete/kenia/)
 
 ### Indonesien
-Sumatra, Java, Sulawesi. Erdig, vollmundig, einzigartige Nassaufbereitung (Giling Basah) – ein Profil, das in der Kaffeewelt einmalig ist.
+Sumatra, Java, Sulawesi – hier schmeckt Kaffee nach feuchter Erde, dunklem Tabak und Zedernholz. Die einzigartige Nassaufbereitung Giling Basah erschafft ein Profil, das es nirgendwo sonst gibt.
 
 [Zur Region](/anbaugebiete/indonesien/)
 :::
@@ -56,6 +56,6 @@ Sumatra, Java, Sulawesi. Erdig, vollmundig, einzigartige Nassaufbereitung (Gilin
 
 ## Warum Herkunft zählt
 
-Im Specialty Coffee ist die Herkunft kein Marketingbegriff, sondern eine echte Qualitätskategorie. Wer verstehen will, was in seiner Tasse steckt, fängt am besten bei den Anbaugebieten an.
+Im Specialty Coffee ist Herkunft keine Folklore – sie ist der Schlüssel zum Verständnis dessen, was in deiner Tasse passiert. Jede Region erzählt eine eigene Geschichte aus Boden, Klima und Menschenhand. Wer diese Geschichten kennt, trinkt bewusster, schmeckt mehr und entdeckt, dass kein Kaffee der Welt wie der andere ist.
 
 [Mehr im Magazin](/magazin/)

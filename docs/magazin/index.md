@@ -1,13 +1,13 @@
 ---
-title: Coffee Lifestyle – Storys, Portraits und Kaffeekultur
-description: Das Specialty Coffee Shop Lifestyle Magazin erzählt von Menschen, Orten und Momenten rund um Specialty Coffee. Storys und Portraits aus der Szene.
+title: Coffee Lifestyle – Geschichten, Portraits und Kaffeekultur
+description: Das Coffee Lifestyle Magazin erzählt von Menschen, Orten und besonderen Momenten rund um Specialty Coffee. Geschichten und Portraits aus der Szene.
 short_title: Coffee Lifestyle
 layout: landing
 ---
 
 # Coffee Lifestyle
 
-Storys, Portraits und Momente aus der Specialty Coffee Welt – von Menschen, Orten und dem, was eine gute Tasse bedeutet.
+Hinter jeder Tasse steckt eine Geschichte. Hier erzählen wir sie – über Menschen, die für Kaffee brennen, Orte, die Kaffeekultur leben, und die kleinen Momente, die eine gute Tasse unvergesslich machen.
 
 :::cta
 [Alle Artikel lesen](/magazin/)
@@ -19,6 +19,6 @@ Storys, Portraits und Momente aus der Specialty Coffee Welt – von Menschen, Or
 
 :::cards
 ### Sensorik & Aromen im Specialty Coffee
-Wie Sensorik im Specialty Coffee funktioniert: Aromenrad, Cupping, Geschmackswahrnehmung und wie du deine Sinne trainierst.
+Was passiert eigentlich auf deiner Zunge, wenn du Specialty Coffee trinkst? Vom Aromenrad über Cupping bis zum gezielten Training deiner Sinne – ein tiefer Einblick in die Welt der Geschmackswahrnehmung.
 [Zum Artikel →](/magazin/sensorik-specialty-coffee/)
 :::

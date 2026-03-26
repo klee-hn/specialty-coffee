@@ -1,6 +1,6 @@
 ---
-title: Äthiopien – Heimat des Kaffees und Ursprung aller Aromen
-description: Äthiopien ist der Geburtsort des Kaffees. Yirgacheffe, Sidama und Harrar stehen für blumige, fruchtige Specialty Coffees mit einzigartiger Komplexität.
+title: Äthiopien – Wo der Kaffee geboren wurde
+description: Äthiopien ist der Geburtsort des Kaffees. Wilde Urwaldpflanzen, jahrhundertealte Zeremonien und Aromen von Jasmin bis Blaubeere – kein Ursprung ist faszinierender.
 short_title: Äthiopien
 author: christopher-klee
 layout: article
@@ -9,7 +9,7 @@ created: 2026-03-24
 
 # Äthiopien
 
-Kein Land der Welt hat eine engere Verbindung zum Kaffee als Äthiopien. Hier, in den Wäldern der Kaffa-Region, wuchs die Pflanze ursprünglich wild – und hier trinken Menschen seit Jahrhunderten Kaffee als festen Bestandteil ihrer Kultur. Für Specialty-Röster ist Äthiopien eine der aufregendsten Quellen überhaupt.
+Stell dir vor: Nebel kriecht durch einen Bergwald auf 2.000 Metern Höhe, Kaffeepflanzen wachsen wild zwischen Schattenbäumen, und niemand hat sie dort hingepflanzt. In den Wäldern der Kaffa-Region, im Südwesten Äthiopiens, begann die Geschichte des Kaffees – nicht als Plantagenprodukt, sondern als Zufallsfund der Natur. Hier trinken Menschen seit Jahrhunderten Kaffee, lange bevor Europa das Wort überhaupt kannte. Für Specialty-Röster ist Äthiopien nicht einfach ein Ursprung unter vielen – es ist der Ursprung.
 
 :::banner 80+
 SCA-Punkte erzielen äthiopische Specialty-Lots regelmäßig
@@ -24,36 +24,36 @@ Oktober–Januar | Erntezeit
 3 | Hauptregionen
 :::
 
-Äthiopien liegt im sogenannten Kaffeegürtel, dem Bereich zwischen dem nördlichen und südlichen Wendekreis, in dem Kaffee optimal gedeiht. Die drei bekanntesten Specialty-Regionen sind Yirgacheffe, Sidama und Harrar – jede mit einem eigenen Geschmacksprofil.
+Äthiopien liegt im Herzen des Kaffeegürtels, jener tropischen Zone zwischen den Wendekreisen, in der Arabica seine besten Bedingungen findet. Die Kombination aus großer Höhe, kühlen Nächten, fruchtbarem Vulkanboden und ausreichend Regen lässt die Kaffeekirschen langsam und gleichmäßig reifen – und genau diese Langsamkeit ist es, die den äthiopischen Aromen ihre unglaubliche Tiefe verleiht. Die drei bekanntesten Specialty-Regionen – Yirgacheffe, Sidama und Harrar – liegen hunderte Kilometer voneinander entfernt und bringen dennoch jeweils Kaffees hervor, die unverwechselbar äthiopisch schmecken.
 
 :::split
 **Yirgacheffe**
-Die bekannteste Specialty-Region Äthiopiens. Gewaschene Aufbereitungen ergeben Kaffees mit intensiver Jasmin- und Bergamott-Note, hellster Säure und einem floralen Abgang, der weltweit keine Konkurrenz hat. Washed Yirgacheffe gilt als Referenz für blumigen Specialty Coffee.
+Wenn es einen Ort gibt, der für floralen Kaffee steht, dann ist es Yirgacheffe. Die kleine Region im Süden produziert gewaschene Kaffees, die nach Jasmin und Bergamotte duften, mit einer hellen, fast zitrischen Säure und einem Abgang, der minutenlang nachklingt. Washed Yirgacheffe ist die Referenz, an der sich blumiger Specialty Coffee weltweit messen lassen muss.
 
 ---
 
 **Sidama & Harrar**
-Sidama produziert ähnlich floral wie Yirgacheffe, oft mit mehr Fruchttiefe. Harrar im Osten steht für natürlich aufbereitete Kaffees mit intensiver Beeren-Süße, erdigem Unterton und einem fast weinartigen Körper.
+Sidama, südlich von Yirgacheffe gelegen, teilt die floralen Grundtöne, fügt aber eine üppigere Fruchttiefe hinzu – reife Steinfrüchte, manchmal tropische Noten. Harrar im trockenen Osten des Landes ist eine andere Welt: Hier werden Kaffees natürlich aufbereitet, und das schmeckt man. Intensive Beerensüße, ein Hauch von Erde, ein fast weinartiger Körper – Harrar-Kaffee ist wild und ungezähmt.
 :::
 
 ## Geschmacksprofil
 
-Äthiopische Kaffees zeichnen sich durch eine hohe Aromenvielfalt aus, die in anderen Ursprüngen kaum erreichbar ist. Je nach Aufbereitungsart entstehen völlig unterschiedliche Profile:
+Was äthiopischen Kaffee so besonders macht, ist nicht ein einzelner Geschmack – sondern die schiere Bandbreite. Je nachdem, wie die Kirschen verarbeitet werden, entstehen völlig verschiedene Welten in der Tasse:
 
 :::cards
 ### Gewaschen (Washed)
-Saubere Tasse, helle Säure, florale Noten wie Jasmin und Bergamott. Fruchtnoten von Zitrus und Pfirsich. Leichter Körper, langer Abgang.
+Kristallklare Tasse, strahlende Säure, Noten von Jasmin, Bergamotte und reifem Pfirsich. Der Körper bleibt leicht und elegant, der Abgang zieht sich lang und floral. Wie ein Spaziergang durch einen blühenden Garten.
 
 ### Natur (Natural)
-Intensivere Fruchtigkeit, Noten von Heidelbeere, Erdbeere, dunkler Schokolade. Vollerer Körper, süßer Abgang. Gärungsnoten möglich.
+Hier wird es wild: Heidelbeere, Erdbeere, dunkle Schokolade – alles auf einmal. Der Körper ist voller, die Süße intensiver, und manchmal schwingt eine leichte Gärungsnote mit, die an Rotwein erinnert. Natural Äthiopien ist Kaffee für Abenteurer.
 
 ### Honey Process
-Zwischen Washed und Natural. Ausgewogene Süße, tropische Früchte, mittlerer Körper. Weniger polarisierend als Natural.
+Der goldene Mittelweg. Ausgewogene Süße, tropische Frucht, ein mittlerer Körper, der weder zu leicht noch zu schwer ist. Weniger polarisierend als Natural, aber mit mehr Tiefe als Washed – perfekt für alle, die Komplexität ohne Extreme suchen.
 :::
 
 ## Kaffeekultur
 
-Äthiopien ist das einzige Land, in dem Kaffee nicht nur exportiert wird – er ist auch intern das meistkonsumierte Getränk. Die traditionelle Kaffezeremonie (*Buna*) ist ein mehrstündiges soziales Ritual, bei dem Kaffee dreimal in Folge aufgebrüht wird: der erste Aufguss (*Abol*) ist der stärkste, der dritte (*Bereka*) soll Segen bringen.
+Äthiopien ist das einzige Kaffeeland, in dem mehr Kaffee getrunken als exportiert wird. Die traditionelle Kaffeezeremonie – *Buna* – ist weit mehr als Koffeinzufuhr: Sie ist ein mehrstündiges soziales Ritual, bei dem grüne Bohnen vor den Augen der Gäste geröstet, gemahlen und dreimal aufgegossen werden. Der erste Aufguss (*Abol*) ist der kräftigste, der zweite (*Tona*) milder, und der dritte (*Bereka*) soll Segen bringen. Wer in Äthiopien Kaffee trinkt, trinkt Geschichte.
 
 :::faq
 ### Warum ist äthiopischer Kaffee so aromatisch?
