@@ -7,12 +7,7 @@ layout: landing
 
 # Specialty Röstereien entdecken
 
-:::stats
-7 | Röstereien
-5 | Bundesländer
-1 | Österreich
-seit 1859 | älteste Rösterei
-:::
+Wir lieben kleine, handwerkliche Kaffees und Röstereien. Hier sammeln wir Orte, an denen wir schon waren und die wir mit euch teilen wollen.
 
 ---
 
