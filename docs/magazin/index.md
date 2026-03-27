@@ -19,6 +19,10 @@ Hinter jeder Tasse steckt eine Geschichte. Hier erzählen wir sie – über Mens
 ## Artikel
 
 :::cards
+### Kaffeebars in Mainz
+Von der Kaffeekommune in der Gaustraße bis zum butter.fly – die besten Adressen für Specialty Coffee und Café-Kultur in der Mainzer Landeshauptstadt.
+[Zum Artikel →](/magazin/kaffeebars-mainz/)
+
 ### Sensorik & Aromen im Specialty Coffee
 Was passiert eigentlich auf deiner Zunge, wenn du Specialty Coffee trinkst? Vom Aromenrad über Cupping bis zum gezielten Training deiner Sinne – ein tiefer Einblick in die Welt der Geschmackswahrnehmung.
 [Zum Artikel →](/magazin/sensorik-specialty-coffee/)
