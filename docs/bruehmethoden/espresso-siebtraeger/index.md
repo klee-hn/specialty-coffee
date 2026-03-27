@@ -13,6 +13,7 @@ sources:
 - https://www.wmf.com/de/de/produkte/kaffeemaschinen/siebtraegermaschinen.html
 title: Espresso mit dem Siebträger – Anleitung und Tipps
 wire_action: created
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Espresso mit dem Siebträger – Anleitung und Tipps

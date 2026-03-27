@@ -12,6 +12,7 @@ sources:
 - https://www.seattlecoffeegear.com/collections/aeropress
 title: AeroPress – Anleitung und Tipps für Specialty Coffee
 wire_action: created
+extra_js: [/assets/nav-fix.js]
 ---
 
 # AeroPress – Anleitung und Tipps für Specialty Coffee

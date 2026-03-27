@@ -11,6 +11,7 @@ sources:
 - https://www.amazon.com/Original-Bialetti-Moka-Express-Stovetop/dp/B0000CF3Q6
 title: Moka Pot – Anleitung und Tipps für Specialty Coffee
 wire_action: created
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Moka Pot – Anleitung und Tipps für Specialty Coffee

@@ -11,6 +11,7 @@ sources:
 - https://www.amazon.com/Bodum-Chambord-French-Coffee-Chrome/dp/B00008XEWG
 title: French Press – Anleitung und Tipps für Specialty Coffee
 wire_action: created
+extra_js: [/assets/nav-fix.js]
 ---
 
 # French Press – Anleitung und Tipps für Specialty Coffee

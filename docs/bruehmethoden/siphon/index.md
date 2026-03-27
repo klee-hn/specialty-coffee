@@ -10,6 +10,7 @@ sources:
 - https://www.merriam-webster.com/dictionary/siphon
 title: Siphon Kaffee – Anleitung und Tipps für Specialty Coffee
 wire_action: created
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Siphon Kaffee – Anleitung und Tipps für Specialty Coffee

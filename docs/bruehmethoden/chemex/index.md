@@ -12,6 +12,7 @@ sources:
 - https://bluebottlecoffee.com/us/eng/brew-guides/chemex
 title: Chemex – Anleitung und Tipps für Specialty Coffee
 wire_action: created
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Chemex – Anleitung und Tipps für Specialty Coffee

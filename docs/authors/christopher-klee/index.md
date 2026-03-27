@@ -6,6 +6,7 @@ layout: article
 created: 2026-03-24
 role: Autor
 organization: Specialty Coffee Shop
+extra_js: [/assets/nav-fix.js]
 ---
 
 Entdecker mit Begeisterung. Klee verfolgt Trends, testet neue Röstereien und schreibt darüber so, dass man sofort mitkommen will – auch ohne Vorwissen.

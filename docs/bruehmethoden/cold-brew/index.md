@@ -12,6 +12,7 @@ sources:
 - https://coffeegeek.com/blog/techniques/a-preferred-way-to-make-cold-brewed-coffee/
 title: Cold Brew – Anleitung und Tipps für Specialty Coffee
 wire_action: created
+extra_js: [/assets/nav-fix.js]
 ---
 
 # Cold Brew – Anleitung und Tipps für Specialty Coffee
