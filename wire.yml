@@ -28,12 +28,12 @@ nav:
     - anbaugebiete/indonesien/index.md
     - bruehmethoden/index.md
     - bruehmethoden/pour-over-v60/index.md
-    - bruehmethoden/french-press/index.md
     - bruehmethoden/aeropress/index.md
     - bruehmethoden/chemex/index.md
-    - bruehmethoden/espresso-siebtraeger/index.md
-    - bruehmethoden/moka-pot/index.md
     - bruehmethoden/cold-brew/index.md
+    - bruehmethoden/espresso-siebtraeger/index.md
+    - bruehmethoden/french-press/index.md
+    - bruehmethoden/moka-pot/index.md
     - bruehmethoden/siphon/index.md
   - Röstereien:
     - roestereien/index.md
@@ -47,6 +47,7 @@ nav:
   - Coffee Lifestyle:
     - magazin/index.md
     - magazin/sensorik-specialty-coffee/index.md
+    - magazin/kaffeebars-mainz/index.md
   - Story:
     - story/index.md
     - authors/christopher-klee/index.md
