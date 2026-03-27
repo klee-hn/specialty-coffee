@@ -90,6 +90,34 @@ Java, Sumatra, Sulawesi – erdige Tiefe und ein Körper, den keine andere Regio
 ### Pour Over & V60
 Die wohl präziseste Methode, um die Aromen einer Bohne vollständig zur Geltung zu bringen. Hier zählt jedes Detail: Mahlgrad, Wassertemperatur, Gießtechnik.
 [Zum Artikel →](/bruehmethoden/pour-over-v60/)
+
+### French Press
+Vollmundig, kräftig, unkompliziert. Die French Press ist der ideale Einstieg – sie verzeiht Fehler und liefert trotzdem einen charaktervollen Kaffee.
+[Zum Artikel →](/bruehmethoden/french-press/)
+
+### AeroPress
+Schnell, vielseitig und für unterwegs gemacht. Die AeroPress produziert in unter zwei Minuten einen sauberen, vollmundigen Kaffee.
+[Zum Artikel →](/bruehmethoden/aeropress/)
+
+### Chemex
+Klar, rein, elegant. Die ikonische Glaskaraffe bringt die Aromen einer Bohne unverfälscht in die Tasse – perfekt für helle, fruchtige Röstungen.
+[Zum Artikel →](/bruehmethoden/chemex/)
+
+### Espresso Siebträger
+Konzentriert, intensiv, mit Crema. Das Herzstück jeder Kaffeebar – und mit dem richtigen Setup auch zu Hause zu meistern.
+[Zum Artikel →](/bruehmethoden/espresso-siebtraeger/)
+
+### Moka Pot
+Der klassische Herdkaffee aus Italien. Vollmundig und stark – ohne Maschine, ohne Schnickschnack, mit viel Charakter.
+[Zum Artikel →](/bruehmethoden/moka-pot/)
+
+### Cold Brew
+Zwölf Stunden kalt gebrüht, sanft im Mund. Säurearm, erfrischend und ideal für heiße Tage.
+[Zum Artikel →](/bruehmethoden/cold-brew/)
+
+### Siphon
+Die spektakulärste Brühmethode. Vakuumkräfte, offene Flamme und Präzision – Wissenschaft und Genuss in einem.
+[Zum Artikel →](/bruehmethoden/siphon/)
 :::
 
 ---
