@@ -1,5 +1,5 @@
 /* ============================================================
-   Röstereien Map – DACH Region
+   Röstereien Map – DACH, minimalistisch
    ============================================================ */
 #roesterei-map {
   height: 480px;
@@ -10,9 +10,9 @@
   border: 1px solid #ece1d3;
 }
 
-/* Warmer Braunton auf den Kartenkacheln */
-#roesterei-map .leaflet-tile-pane {
-  filter: sepia(40%) saturate(0.8) brightness(0.97) contrast(1.04);
+/* Hintergrundfarbe (außerhalb der Länder) */
+#roesterei-map .leaflet-container {
+  background: #e8ddd0 !important;
 }
 
 .roesterei-map-hint {
@@ -23,7 +23,33 @@
   letter-spacing: 0.02em;
 }
 
-/* Custom marker */
+/* Ländernamen */
+.rm-country-label {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #6a4a2a;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+  background: none;
+  border: none;
+}
+
+/* Stadtbeschriftungen */
+.rm-city-label {
+  font-size: 0.68rem;
+  color: #7a5a3a;
+  white-space: nowrap;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.85);
+  pointer-events: none;
+  background: none;
+  border: none;
+}
+
+/* Rösterei-Marker */
 .rm-marker {
   background: none;
   border: none;
