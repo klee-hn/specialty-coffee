@@ -1,186 +1,187 @@
 (function () {
-  function initMap() {
-    var el = document.getElementById('roesterei-map');
-    if (!el || typeof L === 'undefined') return;
+  var el = document.getElementById('roesterei-map');
+  if (!el) return;
 
-    var map = L.map('roesterei-map', {
-      center: [50.5, 10.6],
-      zoom: 6,
-      minZoom: 5,
-      maxZoom: 13,
-      scrollWheelZoom: false,
-      attributionControl: true,
-      zoomControl: true
-    });
+  // ── Projektion ────────────────────────────────────────────────
+  // Equirectangular, gebunden auf DACH-Region
+  var W = 900, H = 580;
+  var LON0 = 5.0, LON1 = 18.0;   // West- und Ostgrenze
+  var LAT0 = 45.0, LAT1 = 56.0;  // Süd- und Nordgrenze
 
-    // Hintergrundfarbe des Leaflet-Containers = Seitenhintergrund
-    // (graue Fläche unsichtbar machen, bevor die Maske greift)
-    map.getContainer().style.background = 'transparent';
-
-    // Seitenhintergrundfarbe dynamisch ermitteln
-    function getPageBg() {
-      var el2 = map.getContainer().parentElement;
-      while (el2 && el2 !== document.body) {
-        var bg = window.getComputedStyle(el2).backgroundColor;
-        if (bg && bg !== 'rgba(0, 0, 0, 0)' && bg !== 'transparent') return bg;
-        el2 = el2.parentElement;
-      }
-      return '#faf7f4';
-    }
-
-    // ── Länderdaten ──────────────────────────────────────────────
-    var dach = [
-      { iso: 'DEU', label: 'Deutschland', fill: '#d6c4a4', labelPos: [51.5, 10.2] },
-      { iso: 'AUT', label: 'Österreich',  fill: '#ccb896', labelPos: [47.5, 14.0] },
-      { iso: 'CHE', label: 'Schweiz',     fill: '#c8b28e', labelPos: [46.9, 8.2]  }
+  function px(lonlat) {
+    return [
+      (lonlat[0] - LON0) / (LON1 - LON0) * W,
+      (LAT1 - lonlat[1]) / (LAT1 - LAT0) * H
     ];
+  }
 
-    var polyStyle = {
-      color: '#8c6a48',
-      weight: 1.5,
-      opacity: 0.9,
-      fillOpacity: 1
-    };
+  function geomToPath(geometry) {
+    var polys = geometry.type === 'Polygon'
+      ? [geometry.coordinates]
+      : geometry.coordinates;
+    return polys.map(function (poly) {
+      return poly.map(function (ring) {
+        return ring.map(function (c, i) {
+          var p = px(c);
+          return (i ? 'L' : 'M') + p[0].toFixed(1) + ',' + p[1].toFixed(1);
+        }).join('') + 'Z';
+      }).join('');
+    }).join('');
+  }
 
-    // GeoJSON-Ringe für die inverse Maske sammeln
-    var maskHoles = [];
-    var loaded = 0;
+  // ── SVG aufbauen ──────────────────────────────────────────────
+  var NS = 'http://www.w3.org/2000/svg';
 
-    dach.forEach(function (country) {
-      fetch('https://cdn.jsdelivr.net/gh/johan/world.geo.json/countries/' + country.iso + '.geo.json')
-        .then(function (r) { return r.json(); })
-        .then(function (geo) {
-          // Länderfläche zeichnen
-          L.geoJSON(geo, {
-            style: Object.assign({}, polyStyle, { fillColor: country.fill })
-          }).addTo(map);
+  function el$(tag, attrs) {
+    var node = document.createElementNS(NS, tag);
+    Object.keys(attrs || {}).forEach(function (k) { node.setAttribute(k, attrs[k]); });
+    return node;
+  }
 
-          // Ländername
-          L.marker(country.labelPos, {
-            icon: L.divIcon({
-              className: 'rm-country-label',
-              html: country.label,
-              iconAnchor: [0, 0]
-            }),
-            interactive: false,
-            keyboard: false
-          }).addTo(map);
+  var svg = el$('svg', {
+    viewBox: '0 0 ' + W + ' ' + H,
+    xmlns: NS,
+    'aria-hidden': 'true'
+  });
+  svg.style.cssText = 'display:block;width:100%;height:auto;';
 
-          // Polygon-Ringe für Maske extrahieren
-          geo.features.forEach(function (f) {
-            var g = f.geometry;
-            if (g.type === 'Polygon') {
-              maskHoles.push(g.coordinates[0].map(function (c) { return [c[1], c[0]]; }));
-            } else if (g.type === 'MultiPolygon') {
-              g.coordinates.forEach(function (poly) {
-                maskHoles.push(poly[0].map(function (c) { return [c[1], c[0]]; }));
-              });
-            }
-          });
-        })
-        .catch(function () {})
-        .then(function () {
-          loaded++;
-          if (loaded === dach.length) onAllLoaded();
+  var gCountries = el$('g', { 'class': 'rm-countries' });
+  var gCities    = el$('g', { 'class': 'rm-cities',   'pointer-events': 'none' });
+  var gMarkers   = el$('g', { 'class': 'rm-markers' });
+
+  svg.appendChild(gCountries);
+  svg.appendChild(gCities);
+  svg.appendChild(gMarkers);
+  el.appendChild(svg);
+
+  // ── Tooltip ───────────────────────────────────────────────────
+  var tip = document.createElement('div');
+  tip.className = 'rm-tooltip';
+  el.appendChild(tip);
+
+  function showTip(e, r) {
+    tip.innerHTML =
+      '<strong>' + r.name + '</strong>' +
+      '<span class="rm-tip-city">' + r.city + '</span>' +
+      '<span class="rm-tip-desc">' + r.description + '</span>';
+    tip.classList.add('is-visible');
+    moveTip(e);
+  }
+
+  function moveTip(e) {
+    var rect = el.getBoundingClientRect();
+    var x = e.clientX - rect.left + 14;
+    var y = e.clientY - rect.top  - 48;
+    if (x + 200 > rect.width) x = e.clientX - rect.left - 200;
+    tip.style.left = x + 'px';
+    tip.style.top  = y + 'px';
+  }
+
+  function hideTip() { tip.classList.remove('is-visible'); }
+
+  // ── Länderdaten ───────────────────────────────────────────────
+  var dach = [
+    { iso: 'DEU', fill: '#d6c4a4', label: 'Deutschland', lp: [10.2, 51.5] },
+    { iso: 'AUT', fill: '#ccb896', label: 'Österreich',  lp: [14.0, 47.55] },
+    { iso: 'CHE', fill: '#c8b28e', label: 'Schweiz',     lp: [8.25, 46.9]  }
+  ];
+
+  var loaded = 0;
+
+  dach.forEach(function (c) {
+    fetch('https://cdn.jsdelivr.net/gh/johan/world.geo.json/countries/' + c.iso + '.geo.json')
+      .then(function (r) { return r.json(); })
+      .then(function (geo) {
+        geo.features.forEach(function (f) {
+          gCountries.appendChild(el$('path', {
+            d: geomToPath(f.geometry),
+            fill: c.fill,
+            stroke: '#8c6a48',
+            'stroke-width': '1',
+            'stroke-linejoin': 'round'
+          }));
         });
+
+        var lp = px(c.lp);
+        var t = el$('text', {
+          x: lp[0], y: lp[1],
+          'class': 'rm-country-label',
+          'text-anchor': 'middle'
+        });
+        t.textContent = c.label;
+        gCities.appendChild(t);
+      })
+      .catch(function () {})
+      .then(function () {
+        if (++loaded === dach.length) onReady();
+      });
+  });
+
+  // ── Großstädte ────────────────────────────────────────────────
+  function onReady() {
+    [
+      { name: 'Berlin',    lon: 13.40, lat: 52.52, dx:  6, dy: -4 },
+      { name: 'Hamburg',   lon:  9.99, lat: 53.55, dx:  6, dy: -4 },
+      { name: 'München',   lon: 11.58, lat: 48.14, dx:  6, dy:  4 },
+      { name: 'Köln',      lon:  6.96, lat: 50.94, dx: -6, dy: -4, anchor: 'end' },
+      { name: 'Frankfurt', lon:  8.68, lat: 50.11, dx:  6, dy: -4 },
+      { name: 'Stuttgart', lon:  9.18, lat: 48.78, dx:  6, dy:  4 },
+      { name: 'Leipzig',   lon: 12.37, lat: 51.34, dx:  6, dy: -4 },
+      { name: 'Dresden',   lon: 13.74, lat: 51.05, dx:  6, dy: -4 },
+      { name: 'Wien',      lon: 16.37, lat: 48.21, dx:  6, dy: -4 },
+      { name: 'Zürich',    lon:  8.54, lat: 47.38, dx:  6, dy:  5 },
+      { name: 'Bern',      lon:  7.45, lat: 46.95, dx: -6, dy:  5, anchor: 'end' }
+    ].forEach(function (c) {
+      var p = px([c.lon, c.lat]);
+      gCities.appendChild(el$('circle', {
+        cx: p[0], cy: p[1], r: '2',
+        fill: '#6a4a2a', opacity: '0.55'
+      }));
+      var t = el$('text', {
+        x: p[0] + c.dx, y: p[1] + c.dy,
+        'class': 'rm-city-label',
+        'text-anchor': c.anchor || 'start'
+      });
+      t.textContent = c.name;
+      gCities.appendChild(t);
     });
 
-    function onAllLoaded() {
-      // Inverse Maske: riesiges Rechteck mit DACH-Löchern (even-odd-Regel)
-      // → alles AUSSERHALB der Länder wird mit der Seitenhintergrundfarbe überdeckt
-      var outer = [[-90, -180], [90, -180], [90, 180], [-90, 180]];
-      L.polygon([outer].concat(maskHoles), {
-        fillColor: getPageBg(),
-        fillOpacity: 1,
-        fillRule: 'evenodd',
-        stroke: false,
-        interactive: false
-      }).addTo(map);
+    addMarkers();
+  }
 
-      addCities();
-      addRoestereien();
-    }
+  // ── Rösterei-Marker ───────────────────────────────────────────
+  function addMarkers() {
+    [
+      { name: 'Kaffeekommune', city: 'Mainz',      description: 'Specialty-Pionierin seit 2010',        url: '/roestereien/kaffeekommune-mainz/',      lon:  8.2473, lat: 49.9929 },
+      { name: 'Maldaner',      city: 'Wiesbaden',  description: '165 Jahre Kaffeetradition, neu gedacht',url: '/roestereien/maldaner-wiesbaden/',        lon:  8.2698, lat: 50.0832 },
+      { name: 'Onoma Kaffee',  city: 'Flensburg',  description: 'Flensburgs erste Specialty-Rösterei',  url: '/roestereien/onoma-flensburg/',           lon:  9.4333, lat: 54.7833 },
+      { name: 'Unbound',       city: 'Innsbruck',  description: 'Farm-to-Cup aus den Swarovski-Hallen', url: '/roestereien/unbound-coffee-innsbruck/',  lon: 11.4041, lat: 47.2692 },
+      { name: 'Südseite',      city: 'Heidelberg', description: 'Rösterei, Bäckerei & Café am Neckar',  url: '/roestereien/suedseite-heidelberg/',      lon:  8.6724, lat: 49.3988 },
+      { name: 'Epitome',       city: 'Erfurt',     description: 'Klimaneutrale Small-Batch-Röstung',    url: '/roestereien/epitome-erfurt/',            lon: 11.0328, lat: 50.9787 },
+      { name: 'MAK Afrika',    city: 'Augsburg',   description: 'Farm-to-Cup vom Mount Meru',           url: '/roestereien/mak-coffee-augsburg/',       lon: 10.8978, lat: 48.3705 },
+      { name: '19grams',       city: 'Berlin',     description: 'Berliner Specialty-Pionier',           url: '/roestereien/19grams-berlin/',            lon: 13.4050, lat: 52.5200 },
+      { name: 'Rösterei Heer', city: 'Thun',       description: 'Bio-Kaffee in kleinen Chargen',        url: '/roestereien/heer-thun/',                 lon:  7.6280, lat: 46.7580 }
+    ].forEach(function (r) {
+      var p = px([r.lon, r.lat]);
+      var g = el$('g', { 'class': 'rm-marker', role: 'button', 'aria-label': r.name });
+      g.style.cursor = 'pointer';
 
-    // ── Großstädte ────────────────────────────────────────────────
-    function addCities() {
-      var cities = [
-        { name: 'Berlin',    lat: 52.52, lon: 13.40 },
-        { name: 'Hamburg',   lat: 53.55, lon:  9.99 },
-        { name: 'München',   lat: 48.14, lon: 11.58 },
-        { name: 'Köln',      lat: 50.94, lon:  6.96 },
-        { name: 'Frankfurt', lat: 50.11, lon:  8.68 },
-        { name: 'Stuttgart', lat: 48.78, lon:  9.18 },
-        { name: 'Leipzig',   lat: 51.34, lon: 12.37 },
-        { name: 'Dresden',   lat: 51.05, lon: 13.74 },
-        { name: 'Wien',      lat: 48.21, lon: 16.37 },
-        { name: 'Zürich',    lat: 47.38, lon:  8.54 },
-        { name: 'Bern',      lat: 46.95, lon:  7.45 }
-      ];
+      g.appendChild(el$('circle', {
+        cx: p[0], cy: p[1], r: '11',
+        fill: '#c8963c', stroke: '#fff', 'stroke-width': '2.5',
+        'class': 'rm-pin'
+      }));
 
-      cities.forEach(function (c) {
-        L.circleMarker([c.lat, c.lon], {
-          radius: 2,
-          color: '#6a4a2a',
-          fillColor: '#6a4a2a',
-          fillOpacity: 0.7,
-          weight: 0,
-          interactive: false
-        }).addTo(map);
+      g.addEventListener('mouseover', function (e) { showTip(e, r); });
+      g.addEventListener('mousemove', moveTip);
+      g.addEventListener('mouseout',  hideTip);
+      g.addEventListener('click',     function () { window.location.href = r.url; });
 
-        L.marker([c.lat, c.lon], {
-          icon: L.divIcon({
-            className: 'rm-city-label',
-            html: c.name,
-            iconAnchor: [-5, 6]
-          }),
-          interactive: false,
-          keyboard: false
-        }).addTo(map);
-      });
-    }
-
-    // ── Röstereien ────────────────────────────────────────────────
-    function addRoestereien() {
-      var roestereien = [
-        { name: 'Kaffeekommune', description: 'Specialty-Pionierin seit 2010',       city: 'Mainz',      url: '/roestereien/kaffeekommune-mainz/',        lat: 49.9929, lon:  8.2473 },
-        { name: 'Maldaner',      description: '165 Jahre Kaffeetradition',            city: 'Wiesbaden',  url: '/roestereien/maldaner-wiesbaden/',          lat: 50.0782, lon:  8.2398 },
-        { name: 'Onoma Kaffee',  description: 'Flensburgs erste Specialty-Rösterei', city: 'Flensburg',  url: '/roestereien/onoma-flensburg/',             lat: 54.7833, lon:  9.4333 },
-        { name: 'Unbound',       description: 'Farm-to-Cup aus den Swarovski-Hallen',city: 'Innsbruck',  url: '/roestereien/unbound-coffee-innsbruck/',    lat: 47.2692, lon: 11.4041 },
-        { name: 'Südseite',      description: 'Rösterei, Bäckerei & Café am Neckar', city: 'Heidelberg', url: '/roestereien/suedseite-heidelberg/',        lat: 49.3988, lon:  8.6724 },
-        { name: 'Epitome',       description: 'Klimaneutrale Small-Batch-Röstung',   city: 'Erfurt',     url: '/roestereien/epitome-erfurt/',              lat: 50.9787, lon: 11.0328 },
-        { name: 'MAK Afrika',    description: 'Farm-to-Cup vom Mount Meru',          city: 'Augsburg',   url: '/roestereien/mak-coffee-augsburg/',         lat: 48.3705, lon: 10.8978 },
-        { name: '19grams',       description: 'Berliner Specialty-Pionier',          city: 'Berlin',     url: '/roestereien/19grams-berlin/',              lat: 52.5200, lon: 13.4050 },
-        { name: 'Rösterei Heer', description: 'Bio-Kaffee in kleinen Chargen',       city: 'Thun',       url: '/roestereien/heer-thun/',                  lat: 46.7580, lon:  7.6280 }
-      ];
-
-      var icon = L.divIcon({
-        className: 'rm-marker',
-        html: '<div class="rm-pin"></div>',
-        iconSize: [22, 22],
-        iconAnchor: [11, 11],
-        tooltipAnchor: [11, -11]
-      });
-
-      roestereien.forEach(function (r) {
-        var marker = L.marker([r.lat, r.lon], { icon: icon }).addTo(map);
-
-        marker.bindTooltip(
-          '<strong style="font-family:Lora,Georgia,serif;font-size:.92rem;">' + r.name + '</strong>'
-          + '<br><span style="color:rgba(253,248,243,.6);font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;">' + r.city + '</span>'
-          + '<br><span style="color:rgba(253,248,243,.85);">' + r.description + '</span>',
-          { className: 'rm-tooltip', direction: 'top', offset: [0, -14] }
-        );
-
-        marker.on('mouseover', function () { el.style.cursor = 'pointer'; });
-        marker.on('mouseout',  function () { el.style.cursor = ''; });
-        marker.on('click',     function () { window.location.href = r.url; });
-      });
-    }
+      gMarkers.appendChild(g);
+    });
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initMap);
-  } else {
-    initMap();
+    document.addEventListener('DOMContentLoaded', function () {});
   }
 })();

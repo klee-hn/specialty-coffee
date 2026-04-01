@@ -4,11 +4,9 @@ description: Entdecke handverlesene Specialty Röstereien aus Deutschland und Ö
 short_title: Röstereien
 layout: landing
 extra_css:
-  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
   - /assets/roesterei-map.css
 extra_js:
   - /assets/nav-fix.js
-  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
   - /assets/roesterei-map.js
 ---
 
