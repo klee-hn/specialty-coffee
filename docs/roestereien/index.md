@@ -75,4 +75,18 @@ Von der Pionier-Rösterei in Mainz über ein 165 Jahre altes Kaffeehaus in Wiesb
       <span class="card-link">Zum Portrait →</span>
     </div>
   </a>
+  <a class="roesterei-card" href="/roestereien/19grams-berlin/">
+    <div class="roesterei-card-body">
+      <h3>19grams Berlin</h3>
+      <p>Einer der Pioniere der Berliner Specialty-Szene. Präzise Röstungen, direkte Farmpartnerschaften und mehrere Cafés mitten in der Stadt.</p>
+      <span class="card-link">Zum Portrait →</span>
+    </div>
+  </a>
+  <a class="roesterei-card" href="/roestereien/heer-thun/">
+    <div class="roesterei-card-body">
+      <h3>Rösterei Heer Thun</h3>
+      <p>Kira Heer röstet seit über 10 Jahren Bio-Kaffee in kleinen Chargen auf Probat-Trommelröstern – fair gehandelt, biologisch, mit sichtbarem Handwerk.</p>
+      <span class="card-link">Zum Portrait →</span>
+    </div>
+  </a>
 </div>

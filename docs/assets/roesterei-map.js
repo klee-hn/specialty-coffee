@@ -141,6 +141,20 @@
           city: 'Augsburg',
           url: '/roestereien/mak-coffee-augsburg/',
           lat: 48.3705, lon: 10.8978
+        },
+        {
+          name: '19grams',
+          description: 'Berliner Specialty-Pionier',
+          city: 'Berlin',
+          url: '/roestereien/19grams-berlin/',
+          lat: 52.5200, lon: 13.4050
+        },
+        {
+          name: 'Rösterei Heer',
+          description: 'Bio-Kaffee in kleinen Chargen',
+          city: 'Thun',
+          url: '/roestereien/heer-thun/',
+          lat: 46.7580, lon: 7.6280
         }
       ];
 
