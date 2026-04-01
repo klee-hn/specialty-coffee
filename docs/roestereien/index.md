@@ -3,11 +3,8 @@ title: Specialty Röstereien – Portraits und Empfehlungen
 description: Entdecke handverlesene Specialty Röstereien aus Deutschland und Österreich. Persönliche Portraits, ehrliche Empfehlungen und direkte Links zu besonderen Kaffeemachern.
 short_title: Röstereien
 layout: landing
-extra_css:
-  - /assets/roesterei-map.css
 extra_js:
   - /assets/nav-fix.js
-  - /assets/roesterei-map.js
 ---
 
 # Röstereien
@@ -19,9 +16,6 @@ Guter Kaffee beginnt bei den Menschen, die ihn rösten. Wir besuchen kleine, han
 ## Alle Röstereien
 
 Von der Pionier-Rösterei in Mainz über ein 165 Jahre altes Kaffeehaus in Wiesbaden bis zur Farm-to-Cup-Geschichte aus Tansania – hier findest du alle Röstereien, die Teil des Specialty Coffee Shop sind. Jedes Portrait erzählt eine eigene Geschichte.
-
-<div id="roesterei-map"></div>
-<p class="roesterei-map-hint">Klicke auf einen Marker, um zum Portrait der Rösterei zu gelangen.</p>
 
 <div class="roesterei-carousel">
   <a class="roesterei-card" href="/roestereien/kaffeekommune-mainz/">
