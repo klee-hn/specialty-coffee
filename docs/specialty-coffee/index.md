@@ -4,7 +4,13 @@ description: "Alles über Specialty Coffee: Was es bedeutet, woher die besten Bo
 short_title: Specialty Coffee
 layout: landing
 created: 2026-03-25
-extra_js: [/assets/nav-fix.js]
+extra_css:
+  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
+  - /assets/coffee-map.css
+extra_js:
+  - /assets/nav-fix.js
+  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
+  - /assets/coffee-map.js
 ---
 
 # Specialty Coffee
@@ -55,6 +61,9 @@ Kaffee enthält über 800 Aromaverbindungen. Sensorik ist die Disziplin, die hil
 ## Anbaugebiete
 
 Kaffee wächst im sogenannten Coffee Belt – einem Gürtel rund um den Äquator, grob zwischen dem 23. Breitengrad Nord und Süd. Innerhalb dieses Gürtels sorgen Höhenlage, Bodenbeschaffenheit, Klima und lokale Aufbereitungstraditionen dafür, dass Kaffee aus Äthiopien völlig anders schmeckt als Kaffee aus Brasilien. Genau das macht die Reise durch die Anbaugebiete so spannend.
+
+<div id="coffee-map"></div>
+<p class="coffee-map-hint">Klicke auf ein Anbaugebiet, um mehr zu erfahren.</p>
 
 :::cards
 ### Äthiopien
