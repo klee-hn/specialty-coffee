@@ -10,6 +10,11 @@
   border: 1px solid #ece1d3;
 }
 
+/* Warmer Braunton auf den Kartenkacheln */
+#roesterei-map .leaflet-tile-pane {
+  filter: sepia(40%) saturate(0.8) brightness(0.97) contrast(1.04);
+}
+
 .roesterei-map-hint {
   text-align: center;
   font-size: 0.82rem;
