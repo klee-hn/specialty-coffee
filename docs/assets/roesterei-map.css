@@ -3,16 +3,12 @@
    ============================================================ */
 #roesterei-map {
   height: 480px;
-  border-radius: 16px;
-  overflow: hidden;
   margin: 32px 0 8px;
-  box-shadow: 0 4px 24px rgba(60, 30, 10, 0.12);
-  border: 1px solid #ece1d3;
 }
 
-/* Hintergrundfarbe (außerhalb der Länder) */
+/* Hintergrund außerhalb der Länder: transparent → Seitenhintergrund scheint durch */
 #roesterei-map .leaflet-container {
-  background: #e8ddd0 !important;
+  background: transparent !important;
 }
 
 .roesterei-map-hint {
