@@ -6,8 +6,15 @@
   margin: 32px 0 8px;
 }
 
-/* Hintergrund außerhalb der Länder: transparent → Seitenhintergrund scheint durch */
-#roesterei-map .leaflet-container {
+/* Alle Leaflet-Ebenen transparent */
+#roesterei-map .leaflet-container,
+#roesterei-map .leaflet-map-pane,
+#roesterei-map .leaflet-tile-pane,
+#roesterei-map .leaflet-shadow-pane,
+#roesterei-map .leaflet-overlay-pane,
+#roesterei-map .leaflet-marker-pane,
+#roesterei-map .leaflet-tooltip-pane,
+#roesterei-map .leaflet-popup-pane {
   background: transparent !important;
 }
 

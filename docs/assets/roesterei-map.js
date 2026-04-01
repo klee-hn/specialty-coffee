@@ -13,6 +13,11 @@
       zoomControl: true
     });
 
+    // Hintergrund transparent – direkt auf dem Container-Element setzen
+    map.getContainer().style.background = 'transparent';
+    map.getContainer().style.boxShadow = 'none';
+    map.getContainer().style.border = 'none';
+
     // ── Länderdaten ──────────────────────────────────────────────
     var dach = [
       { iso: 'DEU', label: 'Deutschland', fill: '#d6c4a4', labelPos: [51.5, 10.2] },
